@@ -1,0 +1,100 @@
+{
+  "<endpoint-url>": {
+    "competition": {
+      "name": "LaLiga",
+      "season": "2025/26",
+      "round": "Matchday 21"
+    },
+  
+    "venue": {
+      "name": "Santiago Bernabéu",
+      "city": "Madrid"
+    },
+  
+    "kickoff": "2026-01-28T20:00:00+01:00",
+    "status": "FT",
+  
+    "teams": {
+      "home": "Real Madrid",
+      "away": "Sevilla"
+    },
+  
+    "score": {
+      "home": 2,
+      "away": 1,
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+  
+    "scorers": [
+      {
+        "team": "Real Madrid",
+        "player": "Jude Bellingham",
+        "minute": 18,
+        "assist": "Rodrygo",
+        "type": "open_play"
+      },
+      {
+        "team": "Sevilla",
+        "player": "Youssef En-Nesyri",
+        "minute": 41,
+        "type": "header"
+      },
+      {
+        "team": "Real Madrid",
+        "player": "Vinícius Júnior",
+        "minute": 78,
+        "type": "penalty"
+      }
+    ],
+  
+    "lineups": {
+      "home": {
+        "team": "Real Madrid",
+        "formation": "4-3-3",
+        "coach": "Carlo Ancelotti",
+        "startingXI": [
+          { "name": "Thibaut Courtois", "number": 1, "position": "GK" },
+          { "name": "Dani Carvajal", "number": 2, "position": "RB" },
+          { "name": "Antonio Rüdiger", "number": 22, "position": "CB" },
+          { "name": "Nacho", "number": 6, "position": "CB" },
+          { "name": "Ferland Mendy", "number": 23, "position": "LB" },
+          { "name": "Jude Bellingham", "number": 5, "position": "CM" },
+          { "name": "Toni Kroos", "number": 8, "position": "CM" },
+          { "name": "Federico Valverde", "number": 15, "position": "CM" },
+          { "name": "Vinícius Júnior", "number": 7, "position": "LW" },
+          { "name": "Joselu", "number": 14, "position": "ST" },
+          { "name": "Rodrygo", "number": 11, "position": "RW" }
+        ],
+        "bench": [
+          { "name": "Luka Modrić", "number": 10, "position": "CM" },
+          { "name": "Eduardo Camavinga", "number": 12, "position": "CM" }
+        ]
+      },
+  
+      "away": {
+        "team": "Sevilla",
+        "formation": "4-2-3-1",
+        "coach": "Quique Sánchez Flores",
+        "startingXI": [
+          { "name": "Marko Dmitrović", "number": 13, "position": "GK" },
+          { "name": "Jesús Navas", "number": 16, "position": "RB" },
+          { "name": "Sergio Ramos", "number": 4, "position": "CB" },
+          { "name": "Loïc Badé", "number": 22, "position": "CB" },
+          { "name": "Marcos Acuña", "number": 19, "position": "LB" },
+          { "name": "Boubakary Soumaré", "number": 18, "position": "DM" },
+          { "name": "Ivan Rakitić", "number": 10, "position": "DM" },
+          { "name": "Lucas Ocampos", "number": 5, "position": "LW" },
+          { "name": "Óliver Torres", "number": 21, "position": "AM" },
+          { "name": "Suso", "number": 7, "position": "RW" },
+          { "name": "Youssef En-Nesyri", "number": 15, "position": "ST" }
+        ],
+        "bench": [
+          { "name": "Dodi Lukébakio", "number": 11, "position": "FW" }
+        ]
+      }
+    }
+  }
+}
