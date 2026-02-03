@@ -15,9 +15,10 @@ Purpose: Download OG2024 JSON dataset files from https://stacy.olympics.com/OG20
 ### Quick examples
 
 - Download the canonical event file by specifying `--comp`, `--event`, and `--lang` (the script always targets `GLO_EventGames`, and writes to `tmp/`):
-  ./fetch_olympics_data.py --comp OG2024 --event FBLMTEAM11 --lang ENG --insecure
 
-- Note: only `--comp`, `--event`, `--lang`, and `--insecure` are supported. You can pass `--event FBLMTEAM11`. The script constructs `GLO_EventGames~comp=...~event=...~lang=....json` and downloads it to `tmp/.`
+`./fetch_olympics_data.py --comp OG2024 --event FBLMTEAM11 --lang ENG --insecure`
+
+- Note: only `--comp`, `--event`, `--lang`, and `--insecure` are supported. The script constructs `GLO_EventGames~comp=...~event=...~lang=....json` and downloads it to `tmp/.`
 
 - After downloading the main event file, the script will parse it and attempt to discover and download related resources. It downloads only the minimal files required by `assemble_api_response.py` (the `RES_ByRSC_H2H` files for each unit).
 
@@ -34,7 +35,8 @@ Purpose: Build a single JSON response (default `api-response.json`) from downloa
 
 ### Usage:
 
-- `./assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --out api-response.json`
+`./assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --out api-response.json`
+
 - The assembler generates an endpoint for every unit in the event by default (one endpoint entry per unit), e.g. for group matches, quarters, semis, finals, etc. No additional flags are necessary.
 
 #### Template behavior
