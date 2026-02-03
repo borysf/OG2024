@@ -1,0 +1,8018 @@
+{
+  "/api/scores/OG2024/FBLMTEAM11/FNL-000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Gold Medal Match"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-08-09T18:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 3,
+      "away": 5,
+      "halfTime": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "scorers": [
+      {
+        "team": "Spain",
+        "player": "CAMELLO Sergio",
+        "minute": 100,
+        "assist": "BERNABE Adrian",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "CAMELLO Sergio",
+        "minute": 120,
+        "assist": "TENAS Arnau",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 25,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "BAENA Alex",
+        "minute": 28,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 18,
+        "assist": "BAENA Alex",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "MILLOT Enzo",
+        "minute": 11,
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "AKLIOUCHE Maghnes",
+        "minute": 79,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 90,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-1-2-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M23"
+          },
+          {
+            "name": "KONE Manu",
+            "number": 6,
+            "position": "M04"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "F05"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "M25"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M44"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F03"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M13"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M34"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "CAMELLO Sergio",
+            "number": 21,
+            "position": "FW"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "SANCHEZ Juanlu",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/FNL-000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Bronze Medal Match"
+    },
+    "venue": {
+      "name": "La Beaujoire Stadium",
+      "city": "La Beaujoire Stadium, Nantes"
+    },
+    "kickoff": "2024-08-08T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Egypt",
+      "away": "Morocco"
+    },
+    "score": {
+      "home": 0,
+      "away": 6,
+      "halfTime": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    "scorers": [
+      {
+        "team": "Morocco",
+        "player": "EZZALZOULI Abde",
+        "minute": 23,
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 26,
+        "assist": "EZZALZOULI Abde",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "EL KHANNOUSS Bilal",
+        "minute": 51,
+        "assist": "EZZALZOULI Abde",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 64,
+        "assist": "AKHOMACH Ilias",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "NAKACH Akram",
+        "minute": 73,
+        "assist": "RAHIMI Soufiane",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "HAKIMI Achraf",
+        "minute": 87,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Egypt",
+        "formation": "4-1-2-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED KOKA",
+            "number": 12,
+            "position": "M35"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "D01"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "D07"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "D05"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "M33"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "MF"
+          },
+          {
+            "name": "MOHAMED HAMDY",
+            "number": 19,
+            "position": "MF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Morocco",
+        "formation": "4-1-2-3",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "F06"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M35"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "M33"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "F02"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "D05"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "M14"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "MANAOUT Haytam",
+            "number": 19,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Marseille Stadium",
+      "city": "Marseille Stadium, Marseille"
+    },
+    "kickoff": "2024-07-24T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "United States of America"
+    },
+    "score": {
+      "home": 3,
+      "away": 0,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "France",
+        "player": "LACAZETTE Alexandre",
+        "minute": 61,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "OLISE Michael",
+        "minute": 69,
+        "assist": "LACAZETTE Alexandre",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "BADE Loic",
+        "minute": 85,
+        "assist": "CHOTARD Joris",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-2-3-1",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M13"
+          },
+          {
+            "name": "KONE Manu",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "M36"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M32"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "United States of America",
+        "formation": "4-2-3-1",
+        "coach": "COVELO Alex",
+        "startingXI": [
+          {
+            "name": "SCHULTE Patrick",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AARONSON Paxten",
+            "number": 11,
+            "position": "M36"
+          },
+          {
+            "name": "BUSIO Gianluca",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "HARRIEL Nathan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "McGUIRE Duncan",
+            "number": 13,
+            "position": "F04"
+          },
+          {
+            "name": "MIHAILOVIC Djordje",
+            "number": 14,
+            "position": "M34"
+          },
+          {
+            "name": "PAREDES Kevin",
+            "number": 7,
+            "position": "M32"
+          },
+          {
+            "name": "ROBINSON Miles",
+            "number": 12,
+            "position": "D05"
+          },
+          {
+            "name": "TESSMANN Tanner",
+            "number": 8,
+            "position": "M13"
+          },
+          {
+            "name": "TOLKIN John",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "ZIMMERMAN Walker",
+            "number": 3,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "McGLYNN Jack",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "BOOTH Taylor",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "CREMASCHI Benjamin",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "DIETZ Maximilian",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "SLONINA Gabriel",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "WILEY Caleb",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "YOW Griffin",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Nice Stadium",
+      "city": "Nice Stadium, Nice"
+    },
+    "kickoff": "2024-07-24T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Guinea",
+      "away": "New Zealand"
+    },
+    "score": {
+      "home": 1,
+      "away": 2,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "New Zealand",
+        "player": "GARBETT Matthew",
+        "minute": 25,
+        "type": "open_play"
+      },
+      {
+        "team": "New Zealand",
+        "player": "GARBETT Matthew",
+        "minute": 24,
+        "type": "open_play"
+      },
+      {
+        "team": "Guinea",
+        "player": "DIAWARA Amadou",
+        "minute": 72,
+        "assist": "BALDE Aliou",
+        "type": "open_play"
+      },
+      {
+        "team": "New Zealand",
+        "player": "WAINE Ben",
+        "minute": 76,
+        "assist": "BAYLISS Lachlan",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Guinea",
+        "formation": "4-2-3-1",
+        "coach": "DIAWARA Kaba",
+        "startingXI": [
+          {
+            "name": "SOUMAH Mohamed",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "KEITA Madiou",
+            "number": 13,
+            "position": "D01"
+          },
+          {
+            "name": "KEITA Naby",
+            "number": 8,
+            "position": "M15"
+          },
+          {
+            "name": "TOURE Abdoulaye",
+            "number": 17,
+            "position": "M13"
+          },
+          {
+            "name": "ILAIX Moriba",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "BAH Algassime",
+            "number": 12,
+            "position": "F04"
+          },
+          {
+            "name": "DIALLO Amadou",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "DIAWARA Amadou",
+            "number": 6,
+            "position": "D03"
+          },
+          {
+            "name": "SYLLA Soumaila",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "CISSE Bangaly",
+            "number": 3,
+            "position": "D07"
+          },
+          {
+            "name": "BALDE Aliou",
+            "number": 7,
+            "position": "M32"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KEITA Mory",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "OULARE Naby",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "CAMARA Cherif",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "BANGOURA Sekou Tidiany",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Ousmane",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "CAMARA Issiaga",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Henry",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "New Zealand",
+        "formation": "4-2-3-1",
+        "coach": "BAZELEY Darren",
+        "startingXI": [
+          {
+            "name": "WAINE Ben",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "BAYLISS Lachlan",
+            "number": 17,
+            "position": "M13"
+          },
+          {
+            "name": "GARBETT Matthew",
+            "number": 7,
+            "position": "M36"
+          },
+          {
+            "name": "BOXALL Michael",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "HERDMAN Jay",
+            "number": 14,
+            "position": "M32"
+          },
+          {
+            "name": "PAULSEN Alex",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SURMAN Finn",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "SINGH Sarpreet",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "BELL Joe",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "SUTTON Sam",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "BINDON Tyler",
+            "number": 4,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "van HATTUM Oskar",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "KELLY-HEALD Lukas",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SHERIDAN Matthew",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "SIMS Kees",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "CONCHIE Fin",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "HUGHES Isaac",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "GILLION Liam",
+            "number": 19,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000300?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Nice Stadium",
+      "city": "Nice Stadium, Nice"
+    },
+    "kickoff": "2024-07-27T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "Guinea"
+    },
+    "score": {
+      "home": 1,
+      "away": 0,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "France",
+        "player": "SILDILLIA Kiliann",
+        "minute": 76,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-3-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "M16"
+          },
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M12"
+          },
+          {
+            "name": "KONE Manu",
+            "number": 6,
+            "position": "M14"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "F03"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M34"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F05"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "MF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Guinea",
+        "formation": "3-4-3",
+        "coach": "DIAWARA Kaba",
+        "startingXI": [
+          {
+            "name": "SOUMAH Mohamed",
+            "number": 4,
+            "position": "D04"
+          },
+          {
+            "name": "KEITA Madiou",
+            "number": 13,
+            "position": "D02"
+          },
+          {
+            "name": "KEITA Naby",
+            "number": 8,
+            "position": "F06"
+          },
+          {
+            "name": "TOURE Abdoulaye",
+            "number": 17,
+            "position": "M25"
+          },
+          {
+            "name": "ILAIX Moriba",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "BAH Algassime",
+            "number": 12,
+            "position": "F04"
+          },
+          {
+            "name": "DIALLO Amadou",
+            "number": 14,
+            "position": "M21"
+          },
+          {
+            "name": "DIAWARA Amadou",
+            "number": 6,
+            "position": "M23"
+          },
+          {
+            "name": "SYLLA Soumaila",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "CISSE Bangaly",
+            "number": 3,
+            "position": "D06"
+          },
+          {
+            "name": "BALDE Aliou",
+            "number": 7,
+            "position": "M27"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KEITA Mory",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "OULARE Naby",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "CAMARA Cherif",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "BANGOURA Sekou Tidiany",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Ousmane",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "CAMARA Issiaga",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Henry",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000400?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Marseille Stadium",
+      "city": "Marseille Stadium, Marseille"
+    },
+    "kickoff": "2024-07-27T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "New Zealand",
+      "away": "United States of America"
+    },
+    "score": {
+      "home": 1,
+      "away": 4,
+      "halfTime": {
+        "home": 0,
+        "away": 3
+      }
+    },
+    "scorers": [
+      {
+        "team": "United States of America",
+        "player": "ZIMMERMAN Walker",
+        "minute": 12,
+        "assist": "MIHAILOVIC Djordje",
+        "type": "open_play"
+      },
+      {
+        "team": "United States of America",
+        "player": "MIHAILOVIC Djordje",
+        "minute": 8,
+        "type": "open_play"
+      },
+      {
+        "team": "United States of America",
+        "player": "BUSIO Gianluca",
+        "minute": 30,
+        "type": "open_play"
+      },
+      {
+        "team": "United States of America",
+        "player": "AARONSON Paxten",
+        "minute": 58,
+        "assist": "YOW Griffin",
+        "type": "open_play"
+      },
+      {
+        "team": "New Zealand",
+        "player": "RANDALL Jesse",
+        "minute": 78,
+        "assist": "GARBETT Matthew",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "New Zealand",
+        "formation": "4-2-3-1",
+        "coach": "BAZELEY Darren",
+        "startingXI": [
+          {
+            "name": "WAINE Ben",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "BAYLISS Lachlan",
+            "number": 17,
+            "position": "M36"
+          },
+          {
+            "name": "GARBETT Matthew",
+            "number": 7,
+            "position": "M13"
+          },
+          {
+            "name": "BOXALL Michael",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "HERDMAN Jay",
+            "number": 14,
+            "position": "M32"
+          },
+          {
+            "name": "PAULSEN Alex",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SURMAN Finn",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "SINGH Sarpreet",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "BELL Joe",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "SUTTON Sam",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "BINDON Tyler",
+            "number": 4,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "van HATTUM Oskar",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "KELLY-HEALD Lukas",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SHERIDAN Matthew",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "SIMS Kees",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "CONCHIE Fin",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "RANDALL Jesse",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "GILLION Liam",
+            "number": 19,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "United States of America",
+        "formation": "4-1-2-3",
+        "coach": "COVELO Alex",
+        "startingXI": [
+          {
+            "name": "SCHULTE Patrick",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AARONSON Paxten",
+            "number": 11,
+            "position": "F02"
+          },
+          {
+            "name": "BUSIO Gianluca",
+            "number": 6,
+            "position": "M35"
+          },
+          {
+            "name": "HARRIEL Nathan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "McGUIRE Duncan",
+            "number": 13,
+            "position": "F04"
+          },
+          {
+            "name": "MIHAILOVIC Djordje",
+            "number": 14,
+            "position": "M33"
+          },
+          {
+            "name": "PAREDES Kevin",
+            "number": 7,
+            "position": "F06"
+          },
+          {
+            "name": "ROBINSON Miles",
+            "number": 12,
+            "position": "D05"
+          },
+          {
+            "name": "TESSMANN Tanner",
+            "number": 8,
+            "position": "M14"
+          },
+          {
+            "name": "TOLKIN John",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "ZIMMERMAN Walker",
+            "number": 3,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "McGLYNN Jack",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "BOOTH Taylor",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "CREMASCHI Benjamin",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "DIETZ Maximilian",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "SLONINA Gabriel",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "WILEY Caleb",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "YOW Griffin",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000500?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Marseille Stadium",
+      "city": "Marseille Stadium, Marseille"
+    },
+    "kickoff": "2024-07-30T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "New Zealand",
+      "away": "France"
+    },
+    "score": {
+      "home": 0,
+      "away": 3,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 19,
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "DOUE Desire",
+        "minute": 71,
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "KALIMUENDO Arnaud",
+        "minute": 74,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "New Zealand",
+        "formation": "4-2-3-1",
+        "coach": "BAZELEY Darren",
+        "startingXI": [
+          {
+            "name": "WAINE Ben",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "GARBETT Matthew",
+            "number": 7,
+            "position": "M13"
+          },
+          {
+            "name": "BOXALL Michael",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "van HATTUM Oskar",
+            "number": 18,
+            "position": "M36"
+          },
+          {
+            "name": "KELLY-HEALD Lukas",
+            "number": 13,
+            "position": "M32"
+          },
+          {
+            "name": "PAULSEN Alex",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SURMAN Finn",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "SINGH Sarpreet",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "BELL Joe",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "SUTTON Sam",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "BINDON Tyler",
+            "number": 4,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BAYLISS Lachlan",
+            "number": 17,
+            "position": "MF"
+          },
+          {
+            "name": "SHERIDAN Matthew",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "HERDMAN Jay",
+            "number": 14,
+            "position": "FW"
+          },
+          {
+            "name": "SIMS Kees",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "CONCHIE Fin",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "RANDALL Jesse",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "GILLION Liam",
+            "number": 19,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "France",
+        "formation": "3-4-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "M34"
+          },
+          {
+            "name": "DIOUF Andy",
+            "number": 20,
+            "position": "M15"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "M17"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "LEPENANT Johann",
+            "number": 21,
+            "position": "M13"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "M11"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D04"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "D06"
+          },
+          {
+            "name": "MATSIMA Chrislain",
+            "number": 19,
+            "position": "D02"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPA-000600?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group A"
+    },
+    "venue": {
+      "name": "Geoffroy-Guichard Stadium",
+      "city": "Geoffroy-Guichard, St-Etienne"
+    },
+    "kickoff": "2024-07-30T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "United States of America",
+      "away": "Guinea"
+    },
+    "score": {
+      "home": 3,
+      "away": 0,
+      "halfTime": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "United States of America",
+        "player": "PAREDES Kevin",
+        "minute": 75,
+        "assist": "McGLYNN Jack",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "United States of America",
+        "formation": "4-1-2-3",
+        "coach": "COVELO Alex",
+        "startingXI": [
+          {
+            "name": "SCHULTE Patrick",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AARONSON Paxten",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "DIETZ Maximilian",
+            "number": 4,
+            "position": "M14"
+          },
+          {
+            "name": "HARRIEL Nathan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "MIHAILOVIC Djordje",
+            "number": 14,
+            "position": "M33"
+          },
+          {
+            "name": "PAREDES Kevin",
+            "number": 7,
+            "position": "F06"
+          },
+          {
+            "name": "ROBINSON Miles",
+            "number": 12,
+            "position": "D05"
+          },
+          {
+            "name": "TESSMANN Tanner",
+            "number": 8,
+            "position": "M35"
+          },
+          {
+            "name": "TOLKIN John",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "YOW Griffin",
+            "number": 9,
+            "position": "F02"
+          },
+          {
+            "name": "ZIMMERMAN Walker",
+            "number": 3,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ATENCIO Josh",
+            "number": 21,
+            "position": "MF"
+          },
+          {
+            "name": "McGLYNN Jack",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "BOOTH Taylor",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "CREMASCHI Benjamin",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "McGUIRE Duncan",
+            "number": 13,
+            "position": "FW"
+          },
+          {
+            "name": "SLONINA Gabriel",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "WILEY Caleb",
+            "number": 17,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Guinea",
+        "formation": "3-4-3",
+        "coach": "DIAWARA Kaba",
+        "startingXI": [
+          {
+            "name": "SOUMAH Mohamed",
+            "number": 4,
+            "position": "D04"
+          },
+          {
+            "name": "KEITA Madiou",
+            "number": 13,
+            "position": "D02"
+          },
+          {
+            "name": "TOURE Abdoulaye",
+            "number": 17,
+            "position": "M25"
+          },
+          {
+            "name": "ILAIX Moriba",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "BAH Algassime",
+            "number": 12,
+            "position": "F04"
+          },
+          {
+            "name": "CAMARA Ousmane",
+            "number": 11,
+            "position": "F06"
+          },
+          {
+            "name": "DIALLO Amadou",
+            "number": 14,
+            "position": "M21"
+          },
+          {
+            "name": "DIAWARA Amadou",
+            "number": 6,
+            "position": "M23"
+          },
+          {
+            "name": "SYLLA Soumaila",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "CISSE Bangaly",
+            "number": 3,
+            "position": "D06"
+          },
+          {
+            "name": "BALDE Aliou",
+            "number": 7,
+            "position": "M27"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KEITA Mory",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "OULARE Naby",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "CAMARA Cherif",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "BANGOURA Sekou Tidiany",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "KEITA Naby",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Issiaga",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "CAMARA Henry",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Geoffroy-Guichard Stadium",
+      "city": "Geoffroy-Guichard, St-Etienne"
+    },
+    "kickoff": "2024-07-24T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Argentina",
+      "away": "Morocco"
+    },
+    "score": {
+      "home": 1,
+      "away": 2,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 45,
+        "assist": "EL KHANNOUSS Bilal",
+        "type": "open_play"
+      },
+      {
+        "team": "Argentina",
+        "player": "SIMEONE Giuliano",
+        "minute": 68,
+        "assist": "SOLER Julio",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 49,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Argentina",
+        "formation": "4-4-2",
+        "coach": "MASCHERANO Javier",
+        "startingXI": [
+          {
+            "name": "ALMADA Thiago",
+            "number": 10,
+            "position": "M27"
+          },
+          {
+            "name": "ALVAREZ Julian",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "BELTRAN Lucas",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "di CESARE Marco",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "GARCIA Joaquin",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "HEZZE Santiago",
+            "number": 14,
+            "position": "M25"
+          },
+          {
+            "name": "MEDINA Cristian",
+            "number": 8,
+            "position": "M23"
+          },
+          {
+            "name": "OTAMENDI Nicolas",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "RULLI Geronimo",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SOLER Julio",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "ZENON Kevin",
+            "number": 7,
+            "position": "M21"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AMIONE Bruno",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "BREY Leandro",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "ECHEVERRI Claudio",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "FERNANDEZ Ezequiel",
+            "number": 5,
+            "position": "MF"
+          },
+          {
+            "name": "GONDOU Luciano",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "LUJAN Gonzalo",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SIMEONE Giuliano",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Morocco",
+        "formation": "4-2-3-1",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "M36"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "M34"
+          },
+          {
+            "name": "EL AZZOUZI Oussama",
+            "number": 17,
+            "position": "M13"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "D03"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "M32"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "FW"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Lyon Stadium",
+      "city": "Lyon Stadium, Lyon"
+    },
+    "kickoff": "2024-07-24T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Iraq",
+      "away": "Ukraine"
+    },
+    "score": {
+      "home": 2,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Iraq",
+        "player": "AYMEN HUSSEIN",
+        "minute": 56,
+        "type": "open_play"
+      },
+      {
+        "team": "Iraq",
+        "player": "ALI JASIM",
+        "minute": 75,
+        "type": "open_play"
+      },
+      {
+        "team": "Ukraine",
+        "player": "RUBCHYNSKYI Valentyn",
+        "minute": 53,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Iraq",
+        "formation": "5-4-1",
+        "coach": "RADHI SHENAISHIL",
+        "startingXI": [
+          {
+            "name": "MUNTADHER MOHAMMED",
+            "number": 11,
+            "position": "M27"
+          },
+          {
+            "name": "ZAID TAHSEEN",
+            "number": 6,
+            "position": "D06"
+          },
+          {
+            "name": "HUSSEIN AMER",
+            "number": 20,
+            "position": "D04"
+          },
+          {
+            "name": "KARRAR MOHAMMED",
+            "number": 14,
+            "position": "M21"
+          },
+          {
+            "name": "MUSTAFA SAADOON",
+            "number": 17,
+            "position": "D08"
+          },
+          {
+            "name": "YOUSSEF AMYN",
+            "number": 10,
+            "position": "M23"
+          },
+          {
+            "name": "HUSSEIN ALI",
+            "number": 3,
+            "position": "D00"
+          },
+          {
+            "name": "HUSSEIN HASAN",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AHMED HASAN",
+            "number": 5,
+            "position": "D02"
+          },
+          {
+            "name": "AYMEN HUSSEIN",
+            "number": 18,
+            "position": "F04"
+          },
+          {
+            "name": "IBRAHIM BAYESH",
+            "number": 8,
+            "position": "M25"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KUMEL SAADI",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "JOSEF AL IMAM",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "MUNTADHER ABDULAMEER",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "HUSSEIN LAWEND",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "ALI JASIM",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "KARRAR SAAD",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "NIHAD MOHAMMED",
+            "number": 15,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Ukraine",
+        "formation": "4-5-1",
+        "coach": "KRAVCHENKO Sergiy",
+        "startingXI": [
+          {
+            "name": "BATAHOV Arsenii",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "BRAHARU Maksym",
+            "number": 10,
+            "position": "M26"
+          },
+          {
+            "name": "FESIUN Kiril",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "KRYSKIV Dmytro",
+            "number": 18,
+            "position": "M24"
+          },
+          {
+            "name": "MARTYNIUK Oleksandr",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MYKHAILENKO Mykola",
+            "number": 8,
+            "position": "M22"
+          },
+          {
+            "name": "RUBCHYNSKYI Valentyn",
+            "number": 5,
+            "position": "M28"
+          },
+          {
+            "name": "SIKAN Danylo",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "TALOVIEROV Maksym",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "KHLAN Maksym",
+            "number": 11,
+            "position": "M20"
+          },
+          {
+            "name": "KRUPSKYI Illia",
+            "number": 2,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "OCHERETKO Oleh",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "SALIUK Volodymyr",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SYCH Oleksii",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "YERMAKOV Georgiy",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "KRASNOPIR Ihor",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "VELETEN Vladyslav",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "FEDOR Oleh",
+            "number": 17,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000300?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Lyon Stadium",
+      "city": "Lyon Stadium, Lyon"
+    },
+    "kickoff": "2024-07-27T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Argentina",
+      "away": "Iraq"
+    },
+    "score": {
+      "home": 3,
+      "away": 1,
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Argentina",
+        "player": "ALMADA Thiago",
+        "minute": 13,
+        "assist": "ALVAREZ Julian",
+        "type": "open_play"
+      },
+      {
+        "team": "Iraq",
+        "player": "AYMEN HUSSEIN",
+        "minute": 45,
+        "assist": "AHMED HASAN",
+        "type": "open_play"
+      },
+      {
+        "team": "Argentina",
+        "player": "FERNANDEZ Ezequiel",
+        "minute": 84,
+        "assist": "ALVAREZ Julian",
+        "type": "open_play"
+      },
+      {
+        "team": "Argentina",
+        "player": "GONDOU Luciano",
+        "minute": 62,
+        "assist": "ZENON Kevin",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Argentina",
+        "formation": "4-4-2",
+        "coach": "MASCHERANO Javier",
+        "startingXI": [
+          {
+            "name": "ALMADA Thiago",
+            "number": 10,
+            "position": "M27"
+          },
+          {
+            "name": "ALVAREZ Julian",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "BELTRAN Lucas",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "di CESARE Marco",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "FERNANDEZ Ezequiel",
+            "number": 5,
+            "position": "M25"
+          },
+          {
+            "name": "GARCIA Joaquin",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "HEZZE Santiago",
+            "number": 14,
+            "position": "M23"
+          },
+          {
+            "name": "MEDINA Cristian",
+            "number": 8,
+            "position": "M21"
+          },
+          {
+            "name": "OTAMENDI Nicolas",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "RULLI Geronimo",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SOLER Julio",
+            "number": 3,
+            "position": "D01"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AMIONE Bruno",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "BREY Leandro",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "ECHEVERRI Claudio",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "GONDOU Luciano",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "LUJAN Gonzalo",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "ZENON Kevin",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "SIMEONE Giuliano",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Iraq",
+        "formation": "4-2-3-1",
+        "coach": "RADHI SHENAISHIL",
+        "startingXI": [
+          {
+            "name": "ZAID TAHSEEN",
+            "number": 6,
+            "position": "D03"
+          },
+          {
+            "name": "HUSSEIN AMER",
+            "number": 20,
+            "position": "D05"
+          },
+          {
+            "name": "ALI JASIM",
+            "number": 7,
+            "position": "M34"
+          },
+          {
+            "name": "KARRAR MOHAMMED",
+            "number": 14,
+            "position": "M13"
+          },
+          {
+            "name": "NIHAD MOHAMMED",
+            "number": 15,
+            "position": "M36"
+          },
+          {
+            "name": "MUSTAFA SAADOON",
+            "number": 17,
+            "position": "D07"
+          },
+          {
+            "name": "YOUSSEF AMYN",
+            "number": 10,
+            "position": "M32"
+          },
+          {
+            "name": "HUSSEIN HASAN",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AHMED HASAN",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "AYMEN HUSSEIN",
+            "number": 18,
+            "position": "F04"
+          },
+          {
+            "name": "IBRAHIM BAYESH",
+            "number": 8,
+            "position": "M15"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KUMEL SAADI",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "JOSEF AL IMAM",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "MUNTADHER ABDULAMEER",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "MUNTADHER MOHAMMED",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "HUSSEIN LAWEND",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "KARRAR SAAD",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "HUSSEIN ALI",
+            "number": 3,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000400?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Geoffroy-Guichard Stadium",
+      "city": "Geoffroy-Guichard, St-Etienne"
+    },
+    "kickoff": "2024-07-27T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Ukraine",
+      "away": "Morocco"
+    },
+    "score": {
+      "home": 2,
+      "away": 1,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Ukraine",
+        "player": "KRYSKIV Dmytro",
+        "minute": 21,
+        "assist": "BRAHARU Maksym",
+        "type": "open_play"
+      },
+      {
+        "team": "Ukraine",
+        "player": "KRASNOPIR Ihor",
+        "minute": 90,
+        "assist": "FEDOR Oleh",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 64,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Ukraine",
+        "formation": "4-5-1",
+        "coach": "KRAVCHENKO Sergiy",
+        "startingXI": [
+          {
+            "name": "BATAHOV Arsenii",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "BRAHARU Maksym",
+            "number": 10,
+            "position": "M20"
+          },
+          {
+            "name": "FESIUN Kiril",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "KRYSKIV Dmytro",
+            "number": 18,
+            "position": "M24"
+          },
+          {
+            "name": "MARTYNIUK Oleksandr",
+            "number": 3,
+            "position": "D07"
+          },
+          {
+            "name": "MYKHAILENKO Mykola",
+            "number": 8,
+            "position": "M22"
+          },
+          {
+            "name": "RUBCHYNSKYI Valentyn",
+            "number": 5,
+            "position": "M26"
+          },
+          {
+            "name": "SALIUK Volodymyr",
+            "number": 13,
+            "position": "D05"
+          },
+          {
+            "name": "SIKAN Danylo",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "KHLAN Maksym",
+            "number": 11,
+            "position": "M28"
+          },
+          {
+            "name": "KRUPSKYI Illia",
+            "number": 2,
+            "position": "D01"
+          }
+        ],
+        "bench": [
+          {
+            "name": "OCHERETKO Oleh",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "SYCH Oleksii",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "TALOVIEROV Maksym",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "YERMAKOV Georgiy",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "KRASNOPIR Ihor",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "VELETEN Vladyslav",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "FEDOR Oleh",
+            "number": 17,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Morocco",
+        "formation": "4-1-2-3",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M35"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "M33"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "F06"
+          },
+          {
+            "name": "EL AZZOUZI Oussama",
+            "number": 17,
+            "position": "D05"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "M14"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "F02"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000500?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Lyon Stadium",
+      "city": "Lyon Stadium, Lyon"
+    },
+    "kickoff": "2024-07-30T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Ukraine",
+      "away": "Argentina"
+    },
+    "score": {
+      "home": 0,
+      "away": 2,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Argentina",
+        "player": "ECHEVERRI Claudio",
+        "minute": 90,
+        "type": "open_play"
+      },
+      {
+        "team": "Argentina",
+        "player": "ALMADA Thiago",
+        "minute": 47,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Ukraine",
+        "formation": "4-1-2-3",
+        "coach": "KRAVCHENKO Sergiy",
+        "startingXI": [
+          {
+            "name": "BATAHOV Arsenii",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "BRAHARU Maksym",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "FESIUN Kiril",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "KRYSKIV Dmytro",
+            "number": 18,
+            "position": "M35"
+          },
+          {
+            "name": "MARTYNIUK Oleksandr",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MYKHAILENKO Mykola",
+            "number": 8,
+            "position": "M33"
+          },
+          {
+            "name": "RUBCHYNSKYI Valentyn",
+            "number": 5,
+            "position": "M14"
+          },
+          {
+            "name": "SIKAN Danylo",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "TALOVIEROV Maksym",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "KHLAN Maksym",
+            "number": 11,
+            "position": "F06"
+          },
+          {
+            "name": "KRUPSKYI Illia",
+            "number": 2,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "OCHERETKO Oleh",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "SALIUK Volodymyr",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SYCH Oleksii",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "YERMAKOV Georgiy",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "KRASNOPIR Ihor",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "VELETEN Vladyslav",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "FEDOR Oleh",
+            "number": 17,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Argentina",
+        "formation": "4-4-2",
+        "coach": "MASCHERANO Javier",
+        "startingXI": [
+          {
+            "name": "ALMADA Thiago",
+            "number": 10,
+            "position": "M21"
+          },
+          {
+            "name": "ALVAREZ Julian",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "di CESARE Marco",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "FERNANDEZ Ezequiel",
+            "number": 5,
+            "position": "M25"
+          },
+          {
+            "name": "GONDOU Luciano",
+            "number": 15,
+            "position": "F05"
+          },
+          {
+            "name": "LUJAN Gonzalo",
+            "number": 13,
+            "position": "D07"
+          },
+          {
+            "name": "MEDINA Cristian",
+            "number": 8,
+            "position": "M23"
+          },
+          {
+            "name": "OTAMENDI Nicolas",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "RULLI Geronimo",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SOLER Julio",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "SIMEONE Giuliano",
+            "number": 17,
+            "position": "M27"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AMIONE Bruno",
+            "number": 6,
+            "position": "DF"
+          },
+          {
+            "name": "BELTRAN Lucas",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "BREY Leandro",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "ECHEVERRI Claudio",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Joaquin",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "HEZZE Santiago",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "ZENON Kevin",
+            "number": 7,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPB-000600?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group B"
+    },
+    "venue": {
+      "name": "Nice Stadium",
+      "city": "Nice Stadium, Nice"
+    },
+    "kickoff": "2024-07-30T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Morocco",
+      "away": "Iraq"
+    },
+    "score": {
+      "home": 3,
+      "away": 0,
+      "halfTime": {
+        "home": 3,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 28,
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "RICHARDSON Amir",
+        "minute": 19,
+        "assist": "HAKIMI Achraf",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "EZZALZOULI Abde",
+        "minute": 36,
+        "assist": "EL OUAHDI Zakaria",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Morocco",
+        "formation": "4-2-3-1",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "M36"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "M34"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "M32"
+          },
+          {
+            "name": "EL AZZOUZI Oussama",
+            "number": 17,
+            "position": "D05"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "M13"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Iraq",
+        "formation": "4-2-3-1",
+        "coach": "RADHI SHENAISHIL",
+        "startingXI": [
+          {
+            "name": "MUNTADHER MOHAMMED",
+            "number": 11,
+            "position": "M34"
+          },
+          {
+            "name": "HUSSEIN AMER",
+            "number": 20,
+            "position": "D05"
+          },
+          {
+            "name": "KARRAR SAAD",
+            "number": 13,
+            "position": "M32"
+          },
+          {
+            "name": "KARRAR MOHAMMED",
+            "number": 14,
+            "position": "M13"
+          },
+          {
+            "name": "MUSTAFA SAADOON",
+            "number": 17,
+            "position": "D07"
+          },
+          {
+            "name": "YOUSSEF AMYN",
+            "number": 10,
+            "position": "M36"
+          },
+          {
+            "name": "HUSSEIN HASAN",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AHMED HASAN",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "SUAD NATIQ",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "AYMEN HUSSEIN",
+            "number": 18,
+            "position": "F04"
+          },
+          {
+            "name": "IBRAHIM BAYESH",
+            "number": 8,
+            "position": "M15"
+          }
+        ],
+        "bench": [
+          {
+            "name": "KUMEL SAADI",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "JOSEF AL IMAM",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "MUNTADHER ABDULAMEER",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "HUSSEIN LAWEND",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "ALI JASIM",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "NIHAD MOHAMMED",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "HUSSEIN ALI",
+            "number": 3,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-07-24T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Uzbekistan",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 1,
+      "away": 2,
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Uzbekistan",
+        "player": "SHOMURODOV Eldor",
+        "minute": 45,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "PUBILL Marc",
+        "minute": 29,
+        "assist": "RUIZ Abel",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "GOMEZ Sergio",
+        "minute": 59,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "GOMEZ Sergio",
+        "minute": 62,
+        "assist": "MIRANDA Juan",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Uzbekistan",
+        "formation": "4-2-3-1",
+        "coach": "KAPADZE Timur",
+        "startingXI": [
+          {
+            "name": "BURIEV Abdurauf",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "FAYZULLAEV Abbosbek",
+            "number": 7,
+            "position": "M36"
+          },
+          {
+            "name": "HAMRALIEV Muhammadkodir",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "JALOLIDDINOV Jasurbek",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "KHUSANOV Abdukodir",
+            "number": 3,
+            "position": "D05"
+          },
+          {
+            "name": "NEMATOV Abduvohid",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "RAKHMONALIEV Umarali",
+            "number": 15,
+            "position": "M13"
+          },
+          {
+            "name": "YULDOSHEV Ibrokhimkhalil",
+            "number": 6,
+            "position": "D01"
+          },
+          {
+            "name": "ALIKULOV Khusniddin",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "SHOMURODOV Eldor",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "URUNOV Oston",
+            "number": 11,
+            "position": "M32"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ABDIRAKHMATOV Zafarmurod",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "IBRAGIMOV Ibrokhim",
+            "number": 19,
+            "position": "MF"
+          },
+          {
+            "name": "JIYANOV Ruslanbek",
+            "number": 8,
+            "position": "FW"
+          },
+          {
+            "name": "KHOLMATOV Diyor",
+            "number": 17,
+            "position": "MF"
+          },
+          {
+            "name": "MIRSAIDOV Saidazamat",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "NAZAROV Vladimir",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "NORCHAEV Khusain",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M13"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M15"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "LOPEZ Diego",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "OMORODION Samu",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "La Beaujoire Stadium",
+      "city": "La Beaujoire Stadium, Nantes"
+    },
+    "kickoff": "2024-07-24T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Egypt",
+      "away": "Dominican Republic"
+    },
+    "score": {
+      "home": 0,
+      "away": 0,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [],
+    "lineups": {
+      "home": {
+        "team": "Egypt",
+        "formation": "4-3-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "M22"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "D07"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "M26"
+          },
+          {
+            "name": "AHMED EID",
+            "number": 4,
+            "position": "D01"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "MOHAMED HAMDY",
+            "number": 19,
+            "position": "MF"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Dominican Republic",
+        "formation": "3-5-2",
+        "coach": "GOMEZ Ibai",
+        "startingXI": [
+          {
+            "name": "MESSINA Fabian",
+            "number": 15,
+            "position": "M24"
+          },
+          {
+            "name": "LORENZO Nowend",
+            "number": 18,
+            "position": "M28"
+          },
+          {
+            "name": "NUNEZ Rafael",
+            "number": 9,
+            "position": "M20"
+          },
+          {
+            "name": "VALDEZ Xavier",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "REYES Francisco",
+            "number": 2,
+            "position": "M26"
+          },
+          {
+            "name": "PUJOL Edgar",
+            "number": 4,
+            "position": "D06"
+          },
+          {
+            "name": "URENA Oscar",
+            "number": 7,
+            "position": "F03"
+          },
+          {
+            "name": "URBAEZ Joao",
+            "number": 12,
+            "position": "D04"
+          },
+          {
+            "name": "GONZALEZ Peter",
+            "number": 11,
+            "position": "F05"
+          },
+          {
+            "name": "MORSCHEL Heinz",
+            "number": 6,
+            "position": "M22"
+          },
+          {
+            "name": "de LUCAS Luiyi",
+            "number": 5,
+            "position": "D02"
+          }
+        ],
+        "bench": [
+          {
+            "name": "MONTES de OCA Angel",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "BOESL Enrique",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "de la CRUZ Omar",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "BAEZ Josue",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "LEMAIRE Nelson",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "AZCONA Edison",
+            "number": 10,
+            "position": "MF"
+          },
+          {
+            "name": "de LEON Jose",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000300?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "La Beaujoire Stadium",
+      "city": "La Beaujoire Stadium, Nantes"
+    },
+    "kickoff": "2024-07-27T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Uzbekistan",
+      "away": "Egypt"
+    },
+    "score": {
+      "home": 0,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Egypt",
+        "player": "AHMED KOKA",
+        "minute": 11,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Uzbekistan",
+        "formation": "4-2-3-1",
+        "coach": "KAPADZE Timur",
+        "startingXI": [
+          {
+            "name": "ABDIRAKHMATOV Zafarmurod",
+            "number": 13,
+            "position": "D01"
+          },
+          {
+            "name": "BURIEV Abdurauf",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "FAYZULLAEV Abbosbek",
+            "number": 7,
+            "position": "M36"
+          },
+          {
+            "name": "HAMRALIEV Muhammadkodir",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "JALOLIDDINOV Jasurbek",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "KHOLMATOV Diyor",
+            "number": 17,
+            "position": "M13"
+          },
+          {
+            "name": "KHUSANOV Abdukodir",
+            "number": 3,
+            "position": "D05"
+          },
+          {
+            "name": "NEMATOV Abduvohid",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "ALIKULOV Khusniddin",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "SHOMURODOV Eldor",
+            "number": 14,
+            "position": "F04"
+          },
+          {
+            "name": "URUNOV Oston",
+            "number": 11,
+            "position": "M32"
+          }
+        ],
+        "bench": [
+          {
+            "name": "IBRAGIMOV Ibrokhim",
+            "number": 19,
+            "position": "MF"
+          },
+          {
+            "name": "JIYANOV Ruslanbek",
+            "number": 8,
+            "position": "FW"
+          },
+          {
+            "name": "MIRSAIDOV Saidazamat",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "NAZAROV Vladimir",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "NORCHAEV Khusain",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "ODILOV Alisher",
+            "number": 20,
+            "position": "FW"
+          },
+          {
+            "name": "RAKHMONALIEV Umarali",
+            "number": 15,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Egypt",
+        "formation": "4-3-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED KOKA",
+            "number": 12,
+            "position": "M22"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "D01"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "M26"
+          },
+          {
+            "name": "AHMED EID",
+            "number": 4,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000400?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "Bordeaux Stadium",
+      "city": "Bordeaux Stadium, Bordeaux"
+    },
+    "kickoff": "2024-07-27T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Dominican Republic",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 1,
+      "away": 3,
+      "halfTime": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Dominican Republic",
+        "player": "MONTES de OCA Angel",
+        "minute": 38,
+        "assist": "AZCONA Edison",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 24,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "GUTIERREZ Miguel",
+        "minute": 70,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "BAENA Alex",
+        "minute": 55,
+        "assist": "OROZ Aimar",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Dominican Republic",
+        "formation": "3-5-2",
+        "coach": "GOMEZ Ibai",
+        "startingXI": [
+          {
+            "name": "MONTES de OCA Angel",
+            "number": 8,
+            "position": "M22"
+          },
+          {
+            "name": "BOESL Enrique",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "de la CRUZ Omar",
+            "number": 14,
+            "position": "M26"
+          },
+          {
+            "name": "LEMAIRE Nelson",
+            "number": 16,
+            "position": "M20"
+          },
+          {
+            "name": "LORENZO Nowend",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "AZCONA Edison",
+            "number": 10,
+            "position": "F03"
+          },
+          {
+            "name": "REYES Francisco",
+            "number": 2,
+            "position": "M28"
+          },
+          {
+            "name": "PUJOL Edgar",
+            "number": 4,
+            "position": "D06"
+          },
+          {
+            "name": "URBAEZ Joao",
+            "number": 12,
+            "position": "D02"
+          },
+          {
+            "name": "MORSCHEL Heinz",
+            "number": 6,
+            "position": "M24"
+          },
+          {
+            "name": "de LUCAS Luiyi",
+            "number": 5,
+            "position": "D04"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BAEZ Josue",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "NUNEZ Rafael",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "JUNGBAUER Thomas",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "VALDEZ Xavier",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de LEON Jose",
+            "number": 17,
+            "position": "FW"
+          },
+          {
+            "name": "URENA Oscar",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "GONZALEZ Peter",
+            "number": 11,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-1-2-3",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M33"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M14"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "F02"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M35"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "SANCHEZ Juanlu",
+            "number": 20,
+            "position": "D07"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "LOPEZ Diego",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "OMORODION Samu",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000500?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-07-30T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Dominican Republic",
+      "away": "Uzbekistan"
+    },
+    "score": {
+      "home": 1,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Dominican Republic",
+        "player": "NUNEZ Rafael",
+        "minute": 51,
+        "type": "open_play"
+      },
+      {
+        "team": "Uzbekistan",
+        "player": "ODILOV Alisher",
+        "minute": 58,
+        "assist": "SHOMURODOV Eldor",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Dominican Republic",
+        "formation": "3-4-3",
+        "coach": "GOMEZ Ibai",
+        "startingXI": [
+          {
+            "name": "MONTES de OCA Angel",
+            "number": 8,
+            "position": "M25"
+          },
+          {
+            "name": "LORENZO Nowend",
+            "number": 18,
+            "position": "F06"
+          },
+          {
+            "name": "NUNEZ Rafael",
+            "number": 9,
+            "position": "M21"
+          },
+          {
+            "name": "VALDEZ Xavier",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de LEON Jose",
+            "number": 17,
+            "position": "M27"
+          },
+          {
+            "name": "PUJOL Edgar",
+            "number": 4,
+            "position": "D06"
+          },
+          {
+            "name": "URENA Oscar",
+            "number": 7,
+            "position": "F02"
+          },
+          {
+            "name": "URBAEZ Joao",
+            "number": 12,
+            "position": "D04"
+          },
+          {
+            "name": "GONZALEZ Peter",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "MORSCHEL Heinz",
+            "number": 6,
+            "position": "M23"
+          },
+          {
+            "name": "de LUCAS Luiyi",
+            "number": 5,
+            "position": "D02"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BOESL Enrique",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "de la CRUZ Omar",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "BAEZ Josue",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "LEMAIRE Nelson",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "JUNGBAUER Thomas",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "AZCONA Edison",
+            "number": 10,
+            "position": "MF"
+          },
+          {
+            "name": "REYES Francisco",
+            "number": 2,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Uzbekistan",
+        "formation": "4-2-3-1",
+        "coach": "KAPADZE Timur",
+        "startingXI": [
+          {
+            "name": "ABDIRAKHMATOV Zafarmurod",
+            "number": 13,
+            "position": "D05"
+          },
+          {
+            "name": "BURIEV Abdurauf",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "HAMRALIEV Muhammadkodir",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "IBRAGIMOV Ibrokhim",
+            "number": 19,
+            "position": "M34"
+          },
+          {
+            "name": "JIYANOV Ruslanbek",
+            "number": 8,
+            "position": "M36"
+          },
+          {
+            "name": "KHUSANOV Abdukodir",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "MIRSAIDOV Saidazamat",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "NAZAROV Vladimir",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "NORCHAEV Khusain",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "ODILOV Alisher",
+            "number": 20,
+            "position": "M32"
+          },
+          {
+            "name": "RAKHMONALIEV Umarali",
+            "number": 15,
+            "position": "M13"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ASKAROV Bekhruzbek",
+            "number": 21,
+            "position": "MF"
+          },
+          {
+            "name": "FAYZULLAEV Abbosbek",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "JALOLIDDINOV Jasurbek",
+            "number": 10,
+            "position": "MF"
+          },
+          {
+            "name": "KHOLMATOV Diyor",
+            "number": 17,
+            "position": "MF"
+          },
+          {
+            "name": "NEMATOV Abduvohid",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "RAKHIMJONOV Asadbek",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "SHOMURODOV Eldor",
+            "number": 14,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPC-000600?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group C"
+    },
+    "venue": {
+      "name": "Bordeaux Stadium",
+      "city": "Bordeaux Stadium, Bordeaux"
+    },
+    "kickoff": "2024-07-30T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Spain",
+      "away": "Egypt"
+    },
+    "score": {
+      "home": 1,
+      "away": 2,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Egypt",
+        "player": "IBRAHIM ADEL",
+        "minute": 40,
+        "assist": "ZIZO",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "OMORODION Samu",
+        "minute": 90,
+        "assist": "CAMELLO Sergio",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "IBRAHIM ADEL",
+        "minute": 62,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "M13"
+          },
+          {
+            "name": "CAMELLO Sergio",
+            "number": 21,
+            "position": "M34"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "D01"
+          },
+          {
+            "name": "ITURBE Alejandro",
+            "number": 22,
+            "position": "GK"
+          },
+          {
+            "name": "LOPEZ Diego",
+            "number": 7,
+            "position": "M32"
+          },
+          {
+            "name": "MOSQUERA Cristhian",
+            "number": 19,
+            "position": "D05"
+          },
+          {
+            "name": "OMORODION Samu",
+            "number": 18,
+            "position": "F04"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "D03"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "M15"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "SANCHEZ Juanlu",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Egypt",
+        "formation": "4-1-2-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED KOKA",
+            "number": 12,
+            "position": "M33"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "D07"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "M35"
+          },
+          {
+            "name": "AHMED EID",
+            "number": 4,
+            "position": "D01"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "MF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-07-24T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Mali",
+      "away": "Israel"
+    },
+    "score": {
+      "home": 1,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Mali",
+        "player": "DOUMBIA Cheickna",
+        "minute": 63,
+        "assist": "DIARRA Thiemoko",
+        "type": "open_play"
+      },
+      {
+        "team": "Mali",
+        "player": "DIALLO Hamidou",
+        "minute": 56,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Mali",
+        "formation": "4-4-2",
+        "coach": "COULIBALY Abdoulaye",
+        "startingXI": [
+          {
+            "name": "JIDDOU Salam",
+            "number": 10,
+            "position": "F05"
+          },
+          {
+            "name": "DIOMANDE Ahmed",
+            "number": 17,
+            "position": "D07"
+          },
+          {
+            "name": "TRAORE Boubacar",
+            "number": 8,
+            "position": "M27"
+          },
+          {
+            "name": "DIARRA Brahima",
+            "number": 13,
+            "position": "M23"
+          },
+          {
+            "name": "DOUMBIA Cheickna",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "DOUCOURE Fode",
+            "number": 2,
+            "position": "D01"
+          },
+          {
+            "name": "DIALLO Hamidou",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "DIARRA Lassine",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "TOUNKARA Mamadou",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "DIAKITE Moussa",
+            "number": 18,
+            "position": "M25"
+          },
+          {
+            "name": "DIARRA Thiemoko",
+            "number": 11,
+            "position": "M21"
+          }
+        ],
+        "bench": [
+          {
+            "name": "SACO Coli",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "DIALLO Demba",
+            "number": 14,
+            "position": "FW"
+          },
+          {
+            "name": "CISSE Ibrahima",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "SISSOKHO Issouf",
+            "number": 12,
+            "position": "MF"
+          },
+          {
+            "name": "COULIBALY Oumar",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SAMAKE Wilson",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "CISSET Mohamed",
+            "number": 15,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Israel",
+        "formation": "4-4-2",
+        "coach": "LUZON Guy",
+        "startingXI": [
+          {
+            "name": "MADMON Elad",
+            "number": 13,
+            "position": "F05"
+          },
+          {
+            "name": "FEREDE Ayanaw",
+            "number": 14,
+            "position": "M23"
+          },
+          {
+            "name": "GANDELMAN Omri",
+            "number": 6,
+            "position": "M25"
+          },
+          {
+            "name": "BEN HAROSH Noam",
+            "number": 12,
+            "position": "D07"
+          },
+          {
+            "name": "GOLDBERG Sean",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "FEINGOLD Ilay",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "NIR ON Omer",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "ABADA Liel",
+            "number": 11,
+            "position": "M27"
+          },
+          {
+            "name": "TURGEMAN Dor",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "GLOUKH Oscar",
+            "number": 10,
+            "position": "M21"
+          },
+          {
+            "name": "LEMKIN Stav",
+            "number": 4,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "YONA Adi",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "SASOON Roy",
+            "number": 22,
+            "position": "GK"
+          },
+          {
+            "name": "ELIASI Niv",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "ISRAELOV Or",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "AZOULAY Ethane",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "REVIVO Roy",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "SHAHAR Ido",
+            "number": 17,
+            "position": "MF"
+          },
+          {
+            "name": "DAVIDA Osher",
+            "number": 7,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "Bordeaux Stadium",
+      "city": "Bordeaux Stadium, Bordeaux"
+    },
+    "kickoff": "2024-07-24T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Japan",
+      "away": "Paraguay"
+    },
+    "score": {
+      "home": 5,
+      "away": 0,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Japan",
+        "player": "MITO Shunsuke",
+        "minute": 19,
+        "assist": "OHATA Ayumu",
+        "type": "open_play"
+      },
+      {
+        "team": "Japan",
+        "player": "YAMAMOTO Rihito",
+        "minute": 69,
+        "assist": "SAITO Koki",
+        "type": "open_play"
+      },
+      {
+        "team": "Japan",
+        "player": "MITO Shunsuke",
+        "minute": 63,
+        "assist": "SAITO Koki",
+        "type": "open_play"
+      },
+      {
+        "team": "Japan",
+        "player": "FUJIO Shota",
+        "minute": 87,
+        "assist": "HOSOYA Mao",
+        "type": "open_play"
+      },
+      {
+        "team": "Japan",
+        "player": "FUJIO Shota",
+        "minute": 81,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Japan",
+        "formation": "4-2-3-1",
+        "coach": "HANEDA Kenji",
+        "startingXI": [
+          {
+            "name": "HIRAKAWA Yu",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "TAKAI Kota",
+            "number": 15,
+            "position": "D03"
+          },
+          {
+            "name": "SEKINE Hiroki",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "SAITO Koki",
+            "number": 10,
+            "position": "M34"
+          },
+          {
+            "name": "KOKUBO Leobrian",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OHATA Ayumu",
+            "number": 16,
+            "position": "D01"
+          },
+          {
+            "name": "HOSOYA Mao",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "MITO Shunsuke",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "FUJITA Joel Chima",
+            "number": 8,
+            "position": "M13"
+          },
+          {
+            "name": "YAMAMOTO Rihito",
+            "number": 7,
+            "position": "M15"
+          },
+          {
+            "name": "KIMURA Seiji",
+            "number": 5,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ARAKI Ryotaro",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "KAWASAKI Sota",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "SUZUKI Kaito",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "NOZAWA Taishi",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "SATO Kein",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "FUJIO Shota",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "NISHIO Ryuya",
+            "number": 3,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Paraguay",
+        "formation": "3-4-3",
+        "coach": "UGLESSICH Mariano",
+        "startingXI": [
+          {
+            "name": "FLORES Gilberto",
+            "number": 5,
+            "position": "D02"
+          },
+          {
+            "name": "RIVAS Daniel",
+            "number": 4,
+            "position": "M21"
+          },
+          {
+            "name": "FERNANDEZ Marcelo",
+            "number": 7,
+            "position": "F04"
+          },
+          {
+            "name": "FERNANDEZ Gatito",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de JESUS Ronaldo",
+            "number": 3,
+            "position": "D04"
+          },
+          {
+            "name": "VIERA Wilder",
+            "number": 10,
+            "position": "M27"
+          },
+          {
+            "name": "BALBUENA Fabian",
+            "number": 14,
+            "position": "D06"
+          },
+          {
+            "name": "GOMEZ Diego",
+            "number": 8,
+            "position": "M25"
+          },
+          {
+            "name": "ENCISO Julio",
+            "number": 15,
+            "position": "F02"
+          },
+          {
+            "name": "GOMEZ Marcos",
+            "number": 6,
+            "position": "M23"
+          },
+          {
+            "name": "CABALLERO Gustavo",
+            "number": 17,
+            "position": "F06"
+          }
+        ],
+        "bench": [
+          {
+            "name": "NUNEZ Alan",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "CANTERO Alexis",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "GONZALEZ Enso",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "ROMAN Fernando",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "PARZAJUK Kevin",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "PEREZ Marcelo",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "FRUTOS Rodrigo",
+            "number": 12,
+            "position": "GK"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000300?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-07-27T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Israel",
+      "away": "Paraguay"
+    },
+    "score": {
+      "home": 2,
+      "away": 4,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Paraguay",
+        "player": "FERNANDEZ Marcelo",
+        "minute": 25,
+        "assist": "de JESUS Ronaldo",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "FERNANDEZ Marcelo",
+        "minute": 90,
+        "type": "open_play"
+      },
+      {
+        "team": "Israel",
+        "player": "GANDELMAN Omri",
+        "minute": 53,
+        "assist": "LEMKIN Stav",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "BALBUENA Fabian",
+        "minute": 90,
+        "assist": "GOMEZ Diego",
+        "type": "open_play"
+      },
+      {
+        "team": "Israel",
+        "player": "GLOUKH Oscar",
+        "minute": 79,
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "ENCISO Julio",
+        "minute": 69,
+        "assist": "GOMEZ Diego",
+        "type": "open_play"
+      },
+      {
+        "team": "Israel",
+        "player": "GLOUKH Oscar",
+        "minute": 80,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Israel",
+        "formation": "4-4-2",
+        "coach": "LUZON Guy",
+        "startingXI": [
+          {
+            "name": "GANDELMAN Omri",
+            "number": 6,
+            "position": "M25"
+          },
+          {
+            "name": "BEN HAROSH Noam",
+            "number": 12,
+            "position": "D07"
+          },
+          {
+            "name": "GOLDBERG Sean",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "FEINGOLD Ilay",
+            "number": 2,
+            "position": "D01"
+          },
+          {
+            "name": "AZOULAY Ethane",
+            "number": 8,
+            "position": "M27"
+          },
+          {
+            "name": "NIR ON Omer",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "SHAHAR Ido",
+            "number": 17,
+            "position": "M21"
+          },
+          {
+            "name": "ABADA Liel",
+            "number": 11,
+            "position": "F03"
+          },
+          {
+            "name": "TURGEMAN Dor",
+            "number": 9,
+            "position": "F05"
+          },
+          {
+            "name": "GLOUKH Oscar",
+            "number": 10,
+            "position": "M23"
+          },
+          {
+            "name": "LEMKIN Stav",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "YONA Adi",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "ELIASI Niv",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "MADMON Elad",
+            "number": 13,
+            "position": "FW"
+          },
+          {
+            "name": "FEREDE Ayanaw",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "ISRAELOV Or",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "REVIVO Roy",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "DAVIDA Osher",
+            "number": 7,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Paraguay",
+        "formation": "4-4-2",
+        "coach": "UGLESSICH Mariano",
+        "startingXI": [
+          {
+            "name": "NUNEZ Alan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "GONZALEZ Enso",
+            "number": 11,
+            "position": "M21"
+          },
+          {
+            "name": "RIVAS Daniel",
+            "number": 4,
+            "position": "D01"
+          },
+          {
+            "name": "FERNANDEZ Marcelo",
+            "number": 7,
+            "position": "F03"
+          },
+          {
+            "name": "PEREZ Marcelo",
+            "number": 18,
+            "position": "M27"
+          },
+          {
+            "name": "FERNANDEZ Gatito",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de JESUS Ronaldo",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "BALBUENA Fabian",
+            "number": 14,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Diego",
+            "number": 8,
+            "position": "M25"
+          },
+          {
+            "name": "ENCISO Julio",
+            "number": 15,
+            "position": "F05"
+          },
+          {
+            "name": "GOMEZ Marcos",
+            "number": 6,
+            "position": "M23"
+          }
+        ],
+        "bench": [
+          {
+            "name": "CANTERO Alexis",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "ROMAN Fernando",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "FLORES Gilberto",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "PARZAJUK Kevin",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "FRUTOS Rodrigo",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "VIERA Wilder",
+            "number": 10,
+            "position": "MF"
+          },
+          {
+            "name": "CABALLERO Gustavo",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000400?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "Bordeaux Stadium",
+      "city": "Bordeaux Stadium, Bordeaux"
+    },
+    "kickoff": "2024-07-27T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Japan",
+      "away": "Mali"
+    },
+    "score": {
+      "home": 1,
+      "away": 0,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Japan",
+        "player": "YAMAMOTO Rihito",
+        "minute": 82,
+        "type": "open_play"
+      },
+      {
+        "team": "Mali",
+        "player": "DOUMBIA Cheickna",
+        "minute": 90,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Japan",
+        "formation": "4-1-2-3",
+        "coach": "HANEDA Kenji",
+        "startingXI": [
+          {
+            "name": "TAKAI Kota",
+            "number": 15,
+            "position": "D05"
+          },
+          {
+            "name": "SEKINE Hiroki",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "YAMADA Fuki",
+            "number": 20,
+            "position": "F06"
+          },
+          {
+            "name": "SAITO Koki",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "KOKUBO Leobrian",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OHATA Ayumu",
+            "number": 16,
+            "position": "D01"
+          },
+          {
+            "name": "HOSOYA Mao",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "ARAKI Ryotaro",
+            "number": 13,
+            "position": "M33"
+          },
+          {
+            "name": "FUJITA Joel Chima",
+            "number": 8,
+            "position": "M14"
+          },
+          {
+            "name": "YAMAMOTO Rihito",
+            "number": 7,
+            "position": "M35"
+          },
+          {
+            "name": "NISHIO Ryuya",
+            "number": 3,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "UCHINO Takashi",
+            "number": 21,
+            "position": "DF"
+          },
+          {
+            "name": "KAWASAKI Sota",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "MITO Shunsuke",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "NOZAWA Taishi",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "SATO Kein",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "FUJIO Shota",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "KIMURA Seiji",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Mali",
+        "formation": "4-1-2-3",
+        "coach": "COULIBALY Abdoulaye",
+        "startingXI": [
+          {
+            "name": "JIDDOU Salam",
+            "number": 10,
+            "position": "M35"
+          },
+          {
+            "name": "DIOMANDE Ahmed",
+            "number": 17,
+            "position": "D07"
+          },
+          {
+            "name": "TRAORE Boubacar",
+            "number": 8,
+            "position": "M33"
+          },
+          {
+            "name": "DIARRA Brahima",
+            "number": 13,
+            "position": "F06"
+          },
+          {
+            "name": "DOUMBIA Cheickna",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "DOUCOURE Fode",
+            "number": 2,
+            "position": "D01"
+          },
+          {
+            "name": "CISSE Ibrahima",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "DIARRA Lassine",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "TOUNKARA Mamadou",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "DIAKITE Moussa",
+            "number": 18,
+            "position": "M14"
+          },
+          {
+            "name": "DIARRA Thiemoko",
+            "number": 11,
+            "position": "F02"
+          }
+        ],
+        "bench": [
+          {
+            "name": "SACO Coli",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "DIALLO Demba",
+            "number": 14,
+            "position": "FW"
+          },
+          {
+            "name": "DIALLO Hamidou",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "SISSOKHO Issouf",
+            "number": 12,
+            "position": "MF"
+          },
+          {
+            "name": "COULIBALY Oumar",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SAMAKE Wilson",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "CISSET Mohamed",
+            "number": 15,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000500?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "La Beaujoire Stadium",
+      "city": "La Beaujoire Stadium, Nantes"
+    },
+    "kickoff": "2024-07-30T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Israel",
+      "away": "Japan"
+    },
+    "score": {
+      "home": 0,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Japan",
+        "player": "HOSOYA Mao",
+        "minute": 90,
+        "assist": "SATO Kein",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Israel",
+        "formation": "4-4-2",
+        "coach": "LUZON Guy",
+        "startingXI": [
+          {
+            "name": "MADMON Elad",
+            "number": 13,
+            "position": "F05"
+          },
+          {
+            "name": "GANDELMAN Omri",
+            "number": 6,
+            "position": "M25"
+          },
+          {
+            "name": "GOLDBERG Sean",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "FEINGOLD Ilay",
+            "number": 2,
+            "position": "D01"
+          },
+          {
+            "name": "AZOULAY Ethane",
+            "number": 8,
+            "position": "M27"
+          },
+          {
+            "name": "NIR ON Omer",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "REVIVO Roy",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "SHAHAR Ido",
+            "number": 17,
+            "position": "M23"
+          },
+          {
+            "name": "ABADA Liel",
+            "number": 11,
+            "position": "F03"
+          },
+          {
+            "name": "GLOUKH Oscar",
+            "number": 10,
+            "position": "M21"
+          },
+          {
+            "name": "LEMKIN Stav",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "YONA Adi",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "ELIASI Niv",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "FEREDE Ayanaw",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "BEN HAROSH Noam",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "ISRAELOV Or",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "TURGEMAN Dor",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "DAVIDA Osher",
+            "number": 7,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Japan",
+        "formation": "4-4-2",
+        "coach": "HANEDA Kenji",
+        "startingXI": [
+          {
+            "name": "UCHINO Takashi",
+            "number": 21,
+            "position": "D07"
+          },
+          {
+            "name": "YAMADA Fuki",
+            "number": 20,
+            "position": "M27"
+          },
+          {
+            "name": "KOKUBO Leobrian",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "ARAKI Ryotaro",
+            "number": 13,
+            "position": "M21"
+          },
+          {
+            "name": "KAWASAKI Sota",
+            "number": 6,
+            "position": "M23"
+          },
+          {
+            "name": "SUZUKI Kaito",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "SATO Kein",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "FUJIO Shota",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "YAMAMOTO Rihito",
+            "number": 7,
+            "position": "M25"
+          },
+          {
+            "name": "KIMURA Seiji",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "NISHIO Ryuya",
+            "number": 3,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "UENAKA Asahi",
+            "number": 19,
+            "position": "FW"
+          },
+          {
+            "name": "TAKAI Kota",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "SEKINE Hiroki",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "HOSOYA Mao",
+            "number": 11,
+            "position": "FW"
+          },
+          {
+            "name": "MITO Shunsuke",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "NOZAWA Taishi",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "FUJITA Joel Chima",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/GPD-000600?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Group D"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-07-30T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Paraguay",
+      "away": "Mali"
+    },
+    "score": {
+      "home": 1,
+      "away": 0,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Paraguay",
+        "player": "FERNANDEZ Marcelo",
+        "minute": 5,
+        "assist": "PEREZ Marcelo",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Paraguay",
+        "formation": "4-4-2",
+        "coach": "UGLESSICH Mariano",
+        "startingXI": [
+          {
+            "name": "NUNEZ Alan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "CANTERO Alexis",
+            "number": 13,
+            "position": "M21"
+          },
+          {
+            "name": "RIVAS Daniel",
+            "number": 4,
+            "position": "D01"
+          },
+          {
+            "name": "FERNANDEZ Marcelo",
+            "number": 7,
+            "position": "M27"
+          },
+          {
+            "name": "PEREZ Marcelo",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "FERNANDEZ Gatito",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de JESUS Ronaldo",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "BALBUENA Fabian",
+            "number": 14,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Diego",
+            "number": 8,
+            "position": "M23"
+          },
+          {
+            "name": "ENCISO Julio",
+            "number": 15,
+            "position": "F03"
+          },
+          {
+            "name": "GOMEZ Marcos",
+            "number": 6,
+            "position": "M25"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ROMAN Fernando",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "FLORES Gilberto",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "PARZAJUK Kevin",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "CARDOZO LUCENA",
+            "number": 20,
+            "position": "MF"
+          },
+          {
+            "name": "FRUTOS Rodrigo",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "VIERA Wilder",
+            "number": 10,
+            "position": "MF"
+          },
+          {
+            "name": "CABALLERO Gustavo",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Mali",
+        "formation": "4-1-2-3",
+        "coach": "COULIBALY Abdoulaye",
+        "startingXI": [
+          {
+            "name": "JIDDOU Salam",
+            "number": 10,
+            "position": "M35"
+          },
+          {
+            "name": "DIOMANDE Ahmed",
+            "number": 17,
+            "position": "D07"
+          },
+          {
+            "name": "TRAORE Boubacar",
+            "number": 8,
+            "position": "M33"
+          },
+          {
+            "name": "DOUMBIA Cheickna",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "SACO Coli",
+            "number": 6,
+            "position": "F06"
+          },
+          {
+            "name": "DOUCOURE Fode",
+            "number": 2,
+            "position": "D01"
+          },
+          {
+            "name": "CISSE Ibrahima",
+            "number": 5,
+            "position": "D05"
+          },
+          {
+            "name": "DIARRA Lassine",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "TOUNKARA Mamadou",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "DIAKITE Moussa",
+            "number": 18,
+            "position": "M14"
+          },
+          {
+            "name": "DIARRA Thiemoko",
+            "number": 11,
+            "position": "F02"
+          }
+        ],
+        "bench": [
+          {
+            "name": "DIARRA Brahima",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "DIALLO Demba",
+            "number": 14,
+            "position": "FW"
+          },
+          {
+            "name": "DIALLO Hamidou",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "SISSOKHO Issouf",
+            "number": 12,
+            "position": "MF"
+          },
+          {
+            "name": "COULIBALY Oumar",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SAMAKE Wilson",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "CISSET Mohamed",
+            "number": 15,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/QFNL000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Quarter-final"
+    },
+    "venue": {
+      "name": "Bordeaux Stadium",
+      "city": "Bordeaux Stadium, Bordeaux"
+    },
+    "kickoff": "2024-08-02T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "Argentina"
+    },
+    "score": {
+      "home": 1,
+      "away": 0,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 5,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-3-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M12"
+          },
+          {
+            "name": "KONE Manu",
+            "number": 6,
+            "position": "M14"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "F03"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "M16"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M34"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F05"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Argentina",
+        "formation": "4-4-2",
+        "coach": "MASCHERANO Javier",
+        "startingXI": [
+          {
+            "name": "ALMADA Thiago",
+            "number": 10,
+            "position": "M21"
+          },
+          {
+            "name": "ALVAREZ Julian",
+            "number": 9,
+            "position": "F03"
+          },
+          {
+            "name": "AMIONE Bruno",
+            "number": 6,
+            "position": "D01"
+          },
+          {
+            "name": "di CESARE Marco",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "FERNANDEZ Ezequiel",
+            "number": 5,
+            "position": "M23"
+          },
+          {
+            "name": "GARCIA Joaquin",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "MEDINA Cristian",
+            "number": 8,
+            "position": "M25"
+          },
+          {
+            "name": "OTAMENDI Nicolas",
+            "number": 16,
+            "position": "D03"
+          },
+          {
+            "name": "RULLI Geronimo",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "ZENON Kevin",
+            "number": 7,
+            "position": "M27"
+          },
+          {
+            "name": "SIMEONE Giuliano",
+            "number": 17,
+            "position": "F05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BELTRAN Lucas",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "BREY Leandro",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "ECHEVERRI Claudio",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "GONDOU Luciano",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "HEZZE Santiago",
+            "number": 14,
+            "position": "MF"
+          },
+          {
+            "name": "LUJAN Gonzalo",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "SOLER Julio",
+            "number": 3,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/QFNL000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Quarter-final"
+    },
+    "venue": {
+      "name": "Marseille Stadium",
+      "city": "Marseille Stadium, Marseille"
+    },
+    "kickoff": "2024-08-02T19:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Egypt",
+      "away": "Paraguay"
+    },
+    "score": {
+      "home": 1,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Egypt",
+        "player": "IBRAHIM ADEL",
+        "minute": 88,
+        "assist": "ZIZO",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "GOMEZ Diego",
+        "minute": 71,
+        "assist": "ENCISO Julio",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "MOHAMED ELNENY",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "IBRAHIM ADEL",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "GOMEZ Marcos",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "HOSSAM ABDELMAGUID",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "GOMEZ Diego",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "PEREZ Marcelo",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "VIERA Wilder",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "KARIM EL DEBES",
+        "type": "open_play"
+      },
+      {
+        "team": "Paraguay",
+        "player": "BALBUENA Fabian",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "AHMED KOKA",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Egypt",
+        "formation": "4-1-2-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED KOKA",
+            "number": 12,
+            "position": "M35"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "M33"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "D01"
+          },
+          {
+            "name": "AHMED EID",
+            "number": 4,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "DF"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Paraguay",
+        "formation": "4-4-2",
+        "coach": "UGLESSICH Mariano",
+        "startingXI": [
+          {
+            "name": "NUNEZ Alan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "CANTERO Alexis",
+            "number": 13,
+            "position": "M21"
+          },
+          {
+            "name": "RIVAS Daniel",
+            "number": 4,
+            "position": "D01"
+          },
+          {
+            "name": "PEREZ Marcelo",
+            "number": 18,
+            "position": "F05"
+          },
+          {
+            "name": "FERNANDEZ Gatito",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "de JESUS Ronaldo",
+            "number": 3,
+            "position": "D03"
+          },
+          {
+            "name": "VIERA Wilder",
+            "number": 10,
+            "position": "M23"
+          },
+          {
+            "name": "BALBUENA Fabian",
+            "number": 14,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Diego",
+            "number": 8,
+            "position": "M27"
+          },
+          {
+            "name": "ENCISO Julio",
+            "number": 15,
+            "position": "F03"
+          },
+          {
+            "name": "GOMEZ Marcos",
+            "number": 6,
+            "position": "M25"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ROMAN Fernando",
+            "number": 16,
+            "position": "DF"
+          },
+          {
+            "name": "FLORES Gilberto",
+            "number": 5,
+            "position": "DF"
+          },
+          {
+            "name": "PARZAJUK Kevin",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "CARDOZO LUCENA",
+            "number": 20,
+            "position": "MF"
+          },
+          {
+            "name": "FERNANDEZ Marcelo",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "FRUTOS Rodrigo",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "CABALLERO Gustavo",
+            "number": 17,
+            "position": "FW"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/QFNL000300?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Quarter-final"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-08-02T15:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Morocco",
+      "away": "United States of America"
+    },
+    "score": {
+      "home": 4,
+      "away": 0,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 29,
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "AKHOMACH Ilias",
+        "minute": 63,
+        "assist": "EZZALZOULI Abde",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "HAKIMI Achraf",
+        "minute": 70,
+        "assist": "EL KHANNOUSS Bilal",
+        "type": "open_play"
+      },
+      {
+        "team": "Morocco",
+        "player": "MAOUHOUB Mehdi",
+        "minute": 90,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Morocco",
+        "formation": "4-2-3-1",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "M36"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "M34"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "M32"
+          },
+          {
+            "name": "EL AZZOUZI Oussama",
+            "number": 17,
+            "position": "D05"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "M13"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "United States of America",
+        "formation": "4-1-2-3",
+        "coach": "COVELO Alex",
+        "startingXI": [
+          {
+            "name": "McGLYNN Jack",
+            "number": 16,
+            "position": "M35"
+          },
+          {
+            "name": "SCHULTE Patrick",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "AARONSON Paxten",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "HARRIEL Nathan",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "MIHAILOVIC Djordje",
+            "number": 14,
+            "position": "M33"
+          },
+          {
+            "name": "PAREDES Kevin",
+            "number": 7,
+            "position": "F06"
+          },
+          {
+            "name": "ROBINSON Miles",
+            "number": 12,
+            "position": "D03"
+          },
+          {
+            "name": "TESSMANN Tanner",
+            "number": 8,
+            "position": "M14"
+          },
+          {
+            "name": "TOLKIN John",
+            "number": 5,
+            "position": "D01"
+          },
+          {
+            "name": "YOW Griffin",
+            "number": 9,
+            "position": "F02"
+          },
+          {
+            "name": "ZIMMERMAN Walker",
+            "number": 3,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "ATENCIO Josh",
+            "number": 21,
+            "position": "MF"
+          },
+          {
+            "name": "BOOTH Taylor",
+            "number": 10,
+            "position": "FW"
+          },
+          {
+            "name": "CREMASCHI Benjamin",
+            "number": 15,
+            "position": "MF"
+          },
+          {
+            "name": "DIETZ Maximilian",
+            "number": 4,
+            "position": "DF"
+          },
+          {
+            "name": "McGUIRE Duncan",
+            "number": 13,
+            "position": "FW"
+          },
+          {
+            "name": "SLONINA Gabriel",
+            "number": 18,
+            "position": "GK"
+          },
+          {
+            "name": "WILEY Caleb",
+            "number": 17,
+            "position": "DF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/QFNL000400?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Quarter-final"
+    },
+    "venue": {
+      "name": "Lyon Stadium",
+      "city": "Lyon Stadium, Lyon"
+    },
+    "kickoff": "2024-08-02T17:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Japan",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 0,
+      "away": 3,
+      "halfTime": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    "scorers": [
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 11,
+        "assist": "BARRIOS Pablo",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 73,
+        "assist": "GOMEZ Sergio",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "RUIZ Abel",
+        "minute": 86,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Japan",
+        "formation": "4-1-2-3",
+        "coach": "HANEDA Kenji",
+        "startingXI": [
+          {
+            "name": "TAKAI Kota",
+            "number": 15,
+            "position": "D05"
+          },
+          {
+            "name": "SEKINE Hiroki",
+            "number": 4,
+            "position": "D07"
+          },
+          {
+            "name": "YAMADA Fuki",
+            "number": 20,
+            "position": "F06"
+          },
+          {
+            "name": "SAITO Koki",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "KOKUBO Leobrian",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OHATA Ayumu",
+            "number": 16,
+            "position": "D01"
+          },
+          {
+            "name": "HOSOYA Mao",
+            "number": 11,
+            "position": "F04"
+          },
+          {
+            "name": "MITO Shunsuke",
+            "number": 14,
+            "position": "M33"
+          },
+          {
+            "name": "FUJITA Joel Chima",
+            "number": 8,
+            "position": "M14"
+          },
+          {
+            "name": "YAMAMOTO Rihito",
+            "number": 7,
+            "position": "M35"
+          },
+          {
+            "name": "KIMURA Seiji",
+            "number": 5,
+            "position": "D03"
+          }
+        ],
+        "bench": [
+          {
+            "name": "UENAKA Asahi",
+            "number": 19,
+            "position": "FW"
+          },
+          {
+            "name": "UCHINO Takashi",
+            "number": 21,
+            "position": "DF"
+          },
+          {
+            "name": "ARAKI Ryotaro",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "SUZUKI Kaito",
+            "number": 2,
+            "position": "DF"
+          },
+          {
+            "name": "NOZAWA Taishi",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "SATO Kein",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "FUJIO Shota",
+            "number": 9,
+            "position": "FW"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M13"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M34"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "LOPEZ Diego",
+            "number": 7,
+            "position": "FW"
+          },
+          {
+            "name": "OMORODION Samu",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/SFNL000100?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Semi-final"
+    },
+    "venue": {
+      "name": "Lyon Stadium",
+      "city": "Lyon Stadium, Lyon"
+    },
+    "kickoff": "2024-08-05T21:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "Egypt"
+    },
+    "score": {
+      "home": 3,
+      "away": 1,
+      "halfTime": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 99,
+        "assist": "SILDILLIA Kiliann",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "OLISE Michael",
+        "minute": 108,
+        "assist": "DOUE Desire",
+        "type": "open_play"
+      },
+      {
+        "team": "Egypt",
+        "player": "MAHMOUD SABER",
+        "minute": 62,
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 83,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-3-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "M16"
+          },
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M12"
+          },
+          {
+            "name": "DIOUF Andy",
+            "number": 20,
+            "position": "M14"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "F03"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M34"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F05"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "MF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Egypt",
+        "formation": "4-1-2-3",
+        "coach": "CUNHA Thiago",
+        "startingXI": [
+          {
+            "name": "IBRAHIM ADEL",
+            "number": 10,
+            "position": "F02"
+          },
+          {
+            "name": "AHMED KOKA",
+            "number": 12,
+            "position": "M35"
+          },
+          {
+            "name": "OSAMA FAISAL",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "HOSSAM ABDELMAGUID",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "HAMZA ALAA",
+            "number": 1,
+            "position": "GK"
+          },
+          {
+            "name": "OMAR FAYED",
+            "number": 2,
+            "position": "D05"
+          },
+          {
+            "name": "KARIM EL DEBES",
+            "number": 13,
+            "position": "D01"
+          },
+          {
+            "name": "MOHAMED ELNENY",
+            "number": 17,
+            "position": "M14"
+          },
+          {
+            "name": "ZIZO",
+            "number": 14,
+            "position": "F06"
+          },
+          {
+            "name": "MOHAMED SHEHATA",
+            "number": 6,
+            "position": "M33"
+          },
+          {
+            "name": "MAHMOUD SABER",
+            "number": 7,
+            "position": "D07"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AHMED ATEF",
+            "number": 3,
+            "position": "MF"
+          },
+          {
+            "name": "BILAL MAZHAR",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "ZIAD KAMAL",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "ALI EL GABRY",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "MOHAMED HAMDY",
+            "number": 19,
+            "position": "MF"
+          },
+          {
+            "name": "MOHAMED TAREK",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MOSTAFA SAAD",
+            "number": 11,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/SFNL000200?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Semi-final"
+    },
+    "venue": {
+      "name": "Marseille Stadium",
+      "city": "Marseille Stadium, Marseille"
+    },
+    "kickoff": "2024-08-05T18:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "Morocco",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 1,
+      "away": 2,
+      "halfTime": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    "scorers": [
+      {
+        "team": "Morocco",
+        "player": "RAHIMI Soufiane",
+        "minute": 37,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 66,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "SANCHEZ Juanlu",
+        "minute": 85,
+        "assist": "LOPEZ Fermin",
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "Morocco",
+        "formation": "4-2-3-1",
+        "coach": "SEKTIOUI Tarik",
+        "startingXI": [
+          {
+            "name": "BOUKAMIR Mehdi",
+            "number": 4,
+            "position": "D03"
+          },
+          {
+            "name": "EL OUAHDI Zakaria",
+            "number": 11,
+            "position": "D01"
+          },
+          {
+            "name": "AKHOMACH Ilias",
+            "number": 10,
+            "position": "M36"
+          },
+          {
+            "name": "RICHARDSON Amir",
+            "number": 18,
+            "position": "M15"
+          },
+          {
+            "name": "EZZALZOULI Abde",
+            "number": 16,
+            "position": "M32"
+          },
+          {
+            "name": "EL AZZOUZI Oussama",
+            "number": 17,
+            "position": "D05"
+          },
+          {
+            "name": "TARGHALLINE Oussama",
+            "number": 14,
+            "position": "M13"
+          },
+          {
+            "name": "BEN SEGHIR Eliesse",
+            "number": 7,
+            "position": "M34"
+          },
+          {
+            "name": "HAKIMI Achraf",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RAHIMI Soufiane",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "EL KAJOUI Munir",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "GHANIMI Rachid",
+            "number": 12,
+            "position": "GK"
+          },
+          {
+            "name": "BOUCHOUARI Benjamin",
+            "number": 6,
+            "position": "MF"
+          },
+          {
+            "name": "KECHTA Yassine",
+            "number": 13,
+            "position": "MF"
+          },
+          {
+            "name": "EL KHANNOUSS Bilal",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "NAKACH Akram",
+            "number": 3,
+            "position": "DF"
+          },
+          {
+            "name": "MAOUHOUB Mehdi",
+            "number": 15,
+            "position": "FW"
+          },
+          {
+            "name": "TAHIF Adil",
+            "number": 5,
+            "position": "DF"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M13"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M34"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "OMORODION Samu",
+            "number": 18,
+            "position": "FW"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "SANCHEZ Juanlu",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "/api/scores/OG2024/FBLMTEAM11/VICTBRONZE?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Bronze Ceremony"
+    },
+    "scorers": []
+  },
+  "/api/scores/OG2024/FBLMTEAM11/VICTMEDAL?lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Victory Ceremony"
+    },
+    "scorers": []
+  },
+  "generated_from": [
+    "GLO_EventGames~comp=OG2024~event=FBLMTEAM11------------~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------FNL-000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------FNL-000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000300--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000400--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000500--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPA-000600--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000300--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000400--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000500--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPB-000600--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000300--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000400--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000500--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPC-000600--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000300--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000400--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000500--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------GPD-000600--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------QFNL000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------QFNL000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------QFNL000300--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------QFNL000400--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------SFNL000100--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------SFNL000200--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------VICTBRONZE--~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------VICTMEDAL---~lang=ENG.json"
+  ]
+}
