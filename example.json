@@ -1,0 +1,285 @@
+{
+  "/api/scores?comp=OG2024&event=FBLMTEAM11&unit=FBLMTEAM11------------FNL-000100--&lang=ENG": {
+    "competition": {
+      "name": "Men",
+      "season": "OG2024",
+      "round": "Gold Medal Match"
+    },
+    "venue": {
+      "name": "Parc des Princes",
+      "city": "Parc des Princes, Paris"
+    },
+    "kickoff": "2024-08-09T18:00:00+02:00",
+    "status": "FT",
+    "teams": {
+      "home": "France",
+      "away": "Spain"
+    },
+    "score": {
+      "home": 3,
+      "away": 5,
+      "halfTime": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    "scorers": [
+      {
+        "team": "Spain",
+        "player": "CAMELLO Sergio",
+        "minute": 100,
+        "assist": "BERNABE Adrian",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "CAMELLO Sergio",
+        "minute": 120,
+        "assist": "TENAS Arnau",
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 25,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "BAENA Alex",
+        "minute": 28,
+        "type": "open_play"
+      },
+      {
+        "team": "Spain",
+        "player": "LOPEZ Fermin",
+        "minute": 18,
+        "assist": "BAENA Alex",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "MILLOT Enzo",
+        "minute": 11,
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "AKLIOUCHE Maghnes",
+        "minute": 79,
+        "assist": "OLISE Michael",
+        "type": "open_play"
+      },
+      {
+        "team": "France",
+        "player": "MATETA Jean-Philippe",
+        "minute": 90,
+        "type": "open_play"
+      }
+    ],
+    "lineups": {
+      "home": {
+        "team": "France",
+        "formation": "4-1-2-1-2",
+        "coach": "HENRY Thierry",
+        "startingXI": [
+          {
+            "name": "CHOTARD Joris",
+            "number": 13,
+            "position": "M23"
+          },
+          {
+            "name": "KONE Manu",
+            "number": 6,
+            "position": "M04"
+          },
+          {
+            "name": "LACAZETTE Alexandre",
+            "number": 10,
+            "position": "F05"
+          },
+          {
+            "name": "LUKEBA Castello",
+            "number": 2,
+            "position": "D03"
+          },
+          {
+            "name": "MILLOT Enzo",
+            "number": 12,
+            "position": "M25"
+          },
+          {
+            "name": "OLISE Michael",
+            "number": 7,
+            "position": "M44"
+          },
+          {
+            "name": "RESTES Guillaume",
+            "number": 16,
+            "position": "GK"
+          },
+          {
+            "name": "SILDILLIA Kiliann",
+            "number": 5,
+            "position": "D07"
+          },
+          {
+            "name": "TRUFFERT Adrien",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "MATETA Jean-Philippe",
+            "number": 14,
+            "position": "F03"
+          },
+          {
+            "name": "BADE Loic",
+            "number": 4,
+            "position": "D05"
+          }
+        ],
+        "bench": [
+          {
+            "name": "AKLIOUCHE Maghnes",
+            "number": 8,
+            "position": "MF"
+          },
+          {
+            "name": "CHERKI Rayan",
+            "number": 18,
+            "position": "MF"
+          },
+          {
+            "name": "DOUE Desire",
+            "number": 11,
+            "position": "MF"
+          },
+          {
+            "name": "KALIMUENDO Arnaud",
+            "number": 9,
+            "position": "FW"
+          },
+          {
+            "name": "LOCKO Bradley",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "MAGASSA Soungoutou",
+            "number": 17,
+            "position": "DF"
+          },
+          {
+            "name": "NKAMBADIO Obed",
+            "number": 1,
+            "position": "GK"
+          }
+        ]
+      },
+      "away": {
+        "team": "Spain",
+        "formation": "4-2-3-1",
+        "coach": "DENIA Santi",
+        "startingXI": [
+          {
+            "name": "BAENA Alex",
+            "number": 10,
+            "position": "M13"
+          },
+          {
+            "name": "BARRIOS Pablo",
+            "number": 6,
+            "position": "M15"
+          },
+          {
+            "name": "CUBARSI Pau",
+            "number": 5,
+            "position": "D03"
+          },
+          {
+            "name": "GARCIA Eric",
+            "number": 4,
+            "position": "D05"
+          },
+          {
+            "name": "GOMEZ Sergio",
+            "number": 17,
+            "position": "M32"
+          },
+          {
+            "name": "LOPEZ Fermin",
+            "number": 11,
+            "position": "M34"
+          },
+          {
+            "name": "MIRANDA Juan",
+            "number": 3,
+            "position": "D01"
+          },
+          {
+            "name": "OROZ Aimar",
+            "number": 14,
+            "position": "M36"
+          },
+          {
+            "name": "PUBILL Marc",
+            "number": 2,
+            "position": "D07"
+          },
+          {
+            "name": "RUIZ Abel",
+            "number": 9,
+            "position": "F04"
+          },
+          {
+            "name": "TENAS Arnau",
+            "number": 1,
+            "position": "GK"
+          }
+        ],
+        "bench": [
+          {
+            "name": "BERNABE Adrian",
+            "number": 16,
+            "position": "MF"
+          },
+          {
+            "name": "CAMELLO Sergio",
+            "number": 21,
+            "position": "FW"
+          },
+          {
+            "name": "GARCIA Joan",
+            "number": 13,
+            "position": "GK"
+          },
+          {
+            "name": "GUTIERREZ Miguel",
+            "number": 15,
+            "position": "DF"
+          },
+          {
+            "name": "PACHECO Jon",
+            "number": 12,
+            "position": "DF"
+          },
+          {
+            "name": "SANCHEZ Juanlu",
+            "number": 20,
+            "position": "DF"
+          },
+          {
+            "name": "TURRIENTES Benat",
+            "number": 8,
+            "position": "MF"
+          }
+        ]
+      }
+    }
+  },
+  "generated_from": [
+    "GLO_EventGames~comp=OG2024~event=FBLMTEAM11------------~lang=ENG.json",
+    "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult=FBLMTEAM11------------FNL-000100--~lang=ENG.json"
+  ]
+}
