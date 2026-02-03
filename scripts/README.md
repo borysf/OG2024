@@ -11,7 +11,7 @@ Quick examples
 
 - Note: only `--comp`, `--event`, `--lang`, and `--insecure` are supported. You can pass `--event FBLMTEAM11` (the trailing `------------` will be added automatically to form `FBLMTEAM11------------`). The script constructs `GLO_EventGames~comp=...~event=...~lang=....json` and downloads it to `tmp/.`
 
-- After downloading the main event file, the script will parse it and attempt to discover and download related resources (examples: `SEL_Phases`, `GLO_EventUnits`, `RES_ByRSC_H2H` per unit, `SCH_ByDisciplineH2H` per schedule date, and several global resources like `MIS_ParticipantNames` and `GLO_Disciplines`).
+- After downloading the main event file, the script will parse it and attempt to discover and download related resources. By default it downloads only the minimal files required by `assemble_api_response.py` (the `RES_ByRSC_H2H` files for each unit).
 
 - If you previously saw HTTP 403 (Forbidden) errors, the downloader now sends a browser-like `User-Agent` and `Referer` header to reduce false positives from servers that block non-browser clients.
 

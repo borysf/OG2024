@@ -5,13 +5,15 @@ Downloads dataset JSON files from the OG2024 public data endpoint.
 
 Features:
 - Minimal CLI: specify `--comp`, `--event`, and `--lang`. Use `--insecure` to skip SSL verification.
-- The script always downloads the canonical `GLO_EventGames` resource and writes files to `tmp/`.
+- By default this script downloads the minimal set of files required by
+  `scripts/assemble_api_response.py` (the main `GLO_EventGames` and
+  `RES_ByRSC_H2H` files for each unit).
+- Files are written to `tmp/` by default.
 
 Usage examples:
   ./scripts/fetch_olympics_data.py --comp OG2024 --event FBLMTEAM11 --lang ENG --insecure
   ./scripts/fetch_olympics_data.py --comp OG2024 --event FBLMTEAM11 --lang ENG
   (This will download `GLO_EventGames~comp=OG2024~event=FBLMTEAM11------------~lang=ENG.json` into `tmp/`)
- 
 
 """
 
@@ -157,12 +159,8 @@ def download_many(filenames: Iterable[str], base_url: str, out_dir: Path, insecu
 def discover_related_files(main_json_path: Path, comp: str, lang: str) -> List[str]:
     """Parse the downloaded event JSON and discover related filenames to download.
 
-    Heuristics implemented:
-    - SEL_Phases for this event
-    - GLO_EventUnits, SEL_Events and GLO_Positions for the discipline derived from event (first 3 chars)
-    - RES_ByRSC_H2H for each unit code found in phases
-    - SCH_ByDisciplineH2H for each unique date found in unit schedules
-    - CIS_Ticker, CIS_H1, MIS_ParticipantNames, MIS_NOCS, GLO_Disciplines, GLO_SportCodes
+    This function returns a broad set of related files (legacy behavior). Prefer using
+    `discover_needed_files` if you only want the files required by `assemble_api_response.py`.
 
     Returns a list of filenames (not URLs) to attempt to download.
     """
@@ -245,6 +243,44 @@ def discover_related_files(main_json_path: Path, comp: str, lang: str) -> List[s
     return out
 
 
+def discover_needed_files(main_json_path: Path, comp: str, lang: str) -> List[str]:
+    """Return a minimal list of files required by `assemble_api_response.py`.
+
+    Currently this includes only `RES_ByRSC_H2H` files for each unit found in the main event JSON.
+    """
+    import json
+
+    if not main_json_path.exists():
+        print(f"Main JSON not found for discovery: {main_json_path}")
+        return []
+
+    with main_json_path.open(encoding="utf-8") as fh:
+        try:
+            data = json.load(fh)
+        except Exception as e:
+            print(f"Failed to parse JSON {main_json_path}: {e}")
+            return []
+
+    event = data.get("event") or {}
+    event_code = event.get("code") if isinstance(event, dict) else None
+    disc = event_code[:3].upper() if event_code and len(event_code) >= 3 else None
+
+    unit_codes = set()
+    for phase in event.get("phases", []) if isinstance(event.get("phases", []), list) else []:
+        for unit in phase.get("units", []) if isinstance(phase.get("units", []), list) else []:
+            code = unit.get("code")
+            if code:
+                unit_codes.add(code)
+
+    filenames = []
+    for uc in sorted(unit_codes):
+        if disc:
+            filenames.append(f"RES_ByRSC_H2H~comp={comp}~disc={disc}~rscResult={uc}~lang={lang}.json")
+
+    print(f"Discovered {len(filenames)} RES_ByRSC_H2H files to attempt downloading.")
+    return filenames
+
+
 # (was) parse_keyvals: removed because the CLI now only accepts fixed arguments (--comp, --event, --lang, --insecure).
 
 
@@ -265,12 +301,12 @@ def main(argv: List[str] | None = None) -> int:
     # use fixed concurrency=4 and force=False
     rc = download_many(files, BASE_DEFAULT, out_dir, args.insecure, 4, False)
 
-    # If the main file was downloaded, try discovering and downloading related files
+    # If the main file was downloaded, discover and download only the files needed by the assembler
     main_path = out_dir / normalize_filename(filename)
     if main_path.exists():
-        related = discover_related_files(main_path, args.comp, args.lang)
+        related = discover_needed_files(main_path, args.comp, args.lang)
         if related:
-            print("Attempting to download discovered related files...")
+            print("Attempting to download needed RES files only...")
             download_many(related, BASE_DEFAULT, out_dir, args.insecure, 4, False)
     else:
         print(f"Main file not present after download: {main_path}. Skipping discovery.")
