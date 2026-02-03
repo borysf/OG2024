@@ -35,28 +35,6 @@ def find_res_file(tmp_dir, comp, disc, unit_code, lang):
     return path if os.path.exists(path) else None
 
 
-def _select_unit(units, prefer_unit=None):
-    # prefer explicit unit if provided
-    if prefer_unit:
-        for u in units:
-            if u.get('code') and prefer_unit in u.get('code'):
-                return u
-        # exact match fallback
-        for u in units:
-            if u.get('code') == prefer_unit:
-                return u
-    # try to find a final/gold match
-    for u in units:
-        c = u.get('code', '')
-        if 'FNL-000100' in c or 'FNL' in c:
-            return u
-    # else return first unit with schedule
-    for u in units:
-        if u.get('schedule'):
-            return u
-    return units[0] if units else None
-
-
 def _parse_minute(pb_when):
     # pb_when examples: "25'", "105'", "105' +3", "120'"
     if not pb_when:
@@ -143,7 +121,7 @@ def _build_lineup(team_item):
     return lineup
 
 
-def assemble(comp, event, lang, tmp_dir, template_path='endpoint-template.json', unit_pref=None, all_units=False):
+def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-template.json'):
     event_code = canonicalize_event(event)
     result = {}
     used_files = set()
@@ -171,14 +149,10 @@ def assemble(comp, event, lang, tmp_dir, template_path='endpoint-template.json',
     placeholder_key = list(template.keys())[0]
     template_body = template[placeholder_key]
 
-    # decide target units
-    if all_units:
-        target_units = units
-    else:
-        sel = _select_unit(units, unit_pref)
-        if sel is None:
-            raise SystemExit("No units found in main event file")
-        target_units = [sel]
+    # ensure there are units and target all of them
+    if not units:
+        raise SystemExit("No units found in main event file")
+    target_units = units
 
     final = {}
 
@@ -296,8 +270,21 @@ def assemble(comp, event, lang, tmp_dir, template_path='endpoint-template.json',
                 out_body['teams']['home'] = start_arr[0].get('participant', {}).get('name')
                 out_body['teams']['away'] = start_arr[1].get('participant', {}).get('name')
 
-        # set endpoint key: parametrized dummy URL
-        url_key = f"/api/scores?comp={comp}&event={event}&unit={unit_code}&lang={lang}"
+        # set endpoint key: use a cleaner path-style URL
+        event_padded = canonicalize_event(event)
+        event_short = re.sub(r'-+$', '', event_padded)
+        # unit_code is often the full code (event + unit); strip the event prefix and trailing dashes
+        unit_suffix = unit_code.replace(event_padded, '') if event_padded in unit_code else unit_code
+        unit_short = re.sub(r'-+$', '', unit_suffix).lstrip('-')
+        if not unit_short:
+            # fallback: try stripping trailing dashes from full unit code and remove event_short prefix
+            tmp = re.sub(r'-+$', '', unit_code)
+            if event_short and tmp.startswith(event_short):
+                unit_short = tmp[len(event_short):].lstrip('-')
+            else:
+                unit_short = tmp
+
+        url_key = f"/api/scores/{comp}/{event_short}/{unit_short}?lang={lang}"
         final[url_key] = out_body
 
     final['generated_from'] = sorted(list(used_files))
@@ -311,12 +298,10 @@ def main():
     p.add_argument('--lang', default='ENG')
     p.add_argument('--tmp', default='tmp')
     p.add_argument('--template', default='endpoint-template.json', help='Path to endpoint template JSON')
-    p.add_argument('--unit', default=None, help='Optional unit code (or substring) to select a specific match unit')
-    p.add_argument('--all-units', action='store_true', help='Generate endpoints for all units (default selects one unit)')
     p.add_argument('--out', default='example.json')
     args = p.parse_args()
 
-    assembled = assemble(args.comp, args.event, args.lang, args.tmp, template_path=args.template, unit_pref=args.unit, all_units=args.all_units)
+    assembled = assemble(args.comp, args.event, args.lang, args.tmp, template_path=args.template)
 
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(assembled, f, indent=2, ensure_ascii=False)

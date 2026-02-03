@@ -29,8 +29,15 @@ Purpose: Build a single JSON response (default `example.json`) from downloaded f
 Usage:
 
 - `./scripts/assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --template endpoint-template.json --out example.json`
-- Optionally choose a specific unit: `--unit FNL-000100--` to select the gold medal match unit.
-- To generate endpoints for every unit in the event, use `--all-units` — the output file will contain one endpoint entry per unit (useful for stubbing multiple endpoints in one file).
+- The assembler generates an endpoint for every unit in the event by default (one endpoint entry per unit), e.g. for group matches, quarters, semis, finals, etc. No additional flags are necessary.
+
+Endpoint key format
+
+- The top-level key for each endpoint now uses a path-style URL, for example:
+
+  `/api/scores/OG2024/FBLMTEAM11/FNL-000100?lang=ENG`
+
+  where the segments are `/api/scores/{comp}/{event}/{unit}?lang={lang}`.
 
 Notes
 
