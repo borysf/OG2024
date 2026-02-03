@@ -1,16 +1,28 @@
 #!/usr/bin/env python3
 """Assemble a single JSON response from downloaded tmp/ files.
 
-Writes output to example.json by default.
+Writes output to api-response.json by default.
 
 Usage:
-  ./scripts/assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --out example.json
+  ./scripts/assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --out api-response.json
 """
 
 import argparse
 import json
 import os
 import re
+
+# Internal default endpoint body used when no external template is provided.
+DEFAULT_ENDPOINT_BODY = {
+    "competition": {"name": None, "season": None, "round": None},
+    "venue": {"name": None, "city": None},
+    "kickoff": None,
+    "status": None,
+    "teams": {"home": None, "away": None},
+    "score": {"home": None, "away": None, "halfTime": {"home": None, "away": None}},
+    "scorers": [],
+    "lineups": {},
+}
 
 
 def canonicalize_event(ev, length=22, pad_char='-'):
@@ -121,7 +133,7 @@ def _build_lineup(team_item):
     return lineup
 
 
-def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-template.json'):
+def assemble(comp, event, lang, tmp_dir):
     event_code = canonicalize_event(event)
     result = {}
     used_files = set()
@@ -143,11 +155,8 @@ def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-
         for unit in phase.get('units', []) if isinstance(phase.get('units'), list) else []:
             units.append(unit)
 
-    template = load_json(template_path)
-    if not template:
-        raise SystemExit(f"Missing template file: {template_path}")
-    placeholder_key = list(template.keys())[0]
-    template_body = template[placeholder_key]
+    # Use the internal default template body; external template files are not used.
+    template_body = DEFAULT_ENDPOINT_BODY
 
     # ensure there are units and target all of them
     if not units:
@@ -155,6 +164,39 @@ def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-
     target_units = units
 
     final = {}
+
+    def _prune_empty(obj):
+        """Recursively remove None values and empty dicts from obj.
+
+        Preserves empty lists (so fields like `scorers: []` remain present).
+        Returns None if the object is entirely empty after pruning (only used for dicts).
+        """
+        if isinstance(obj, dict):
+            new = {}
+            for k, v in obj.items():
+                v2 = _prune_empty(v)
+                if v2 is None:
+                    continue
+                # drop empty dicts
+                if isinstance(v2, dict) and not v2:
+                    continue
+                # preserve empty lists (keep them as-is)
+                new[k] = v2
+            return new if new else None
+        if isinstance(obj, list):
+            out = []
+            for it in obj:
+                it2 = _prune_empty(it)
+                if it2 is None:
+                    continue
+                # drop empty dicts inside lists
+                if isinstance(it2, dict) and not it2:
+                    continue
+                # keep empty lists (it2 == [])
+                out.append(it2)
+            # always return list (may be empty) to preserve arrays
+            return out
+        return obj
 
     for selected_unit in target_units:
         unit_code = selected_unit.get('code')
@@ -256,7 +298,7 @@ def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-
             # fallback if not set, assign based on ordering
             if 'home' not in out_body['lineups'] and res.get('items'):
                 out_body['lineups']['home'] = _build_lineup(res.get('items')[0])
-            if 'away' not in out_body['lineups'] and len(res.get('items')) > 1:
+            if 'away' not in out_body['lineups'] and res.get('items') and len(res.get('items')) > 1:
                 out_body['lineups']['away'] = _build_lineup(res.get('items')[1])
 
         else:
@@ -285,7 +327,8 @@ def assemble(comp, event, lang, tmp_dir, template_path='example/output/endpoint-
                 unit_short = tmp
 
         url_key = f"/api/scores/{comp}/{event_short}/{unit_short}?lang={lang}"
-        final[url_key] = out_body
+        cleaned = _prune_empty(out_body)
+        final[url_key] = cleaned if cleaned is not None else {}
 
     final['generated_from'] = sorted(list(used_files))
     return final
@@ -297,11 +340,10 @@ def main():
     p.add_argument('--event', default='FBLMTEAM11')
     p.add_argument('--lang', default='ENG')
     p.add_argument('--tmp', default='tmp')
-    p.add_argument('--template', default='endpoint-template.json', help='Path to endpoint template JSON')
-    p.add_argument('--out', default='example.json')
+    p.add_argument('--out', default='api-response.json')
     args = p.parse_args()
 
-    assembled = assemble(args.comp, args.event, args.lang, args.tmp, template_path=args.template)
+    assembled = assemble(args.comp, args.event, args.lang, args.tmp)
 
     with open(args.out, 'w', encoding='utf-8') as f:
         json.dump(assembled, f, indent=2, ensure_ascii=False)

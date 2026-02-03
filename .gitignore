@@ -1,7 +1,3 @@
 # Repo ignores
 tmp/
-derived/
-out/
 .DS_Store
-example/
-endpoint-template.json

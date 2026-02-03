@@ -24,12 +24,16 @@ Options
 
 Additional script: `assemble_api_response.py`
 
-Purpose: Build a single JSON response (default `example.json`) from downloaded files in `tmp/` and write an endpoint-shaped payload (key is a placeholder endpoint URL containing `comp`, `event`, `unit`, and `lang` parameters). Uses `endpoint-template.json` as the response template by default.
+Purpose: Build a single JSON response (default `example.json`) from downloaded files in `tmp/` and write an endpoint-shaped payload (key is a placeholder endpoint URL containing `comp`, `event`, `unit`, and `lang` parameters).
 
 Usage:
 
-- `./scripts/assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --template endpoint-template.json --out example.json`
+- `./scripts/assemble_api_response.py --comp OG2024 --event FBLMTEAM11 --lang ENG --tmp tmp --out example.json`
 - The assembler generates an endpoint for every unit in the event by default (one endpoint entry per unit), e.g. for group matches, quarters, semis, finals, etc. No additional flags are necessary.
+
+Template behavior
+
+- The assembler uses an internal default template for the endpoint body and no external template file is required.
 
 Endpoint key format
 
